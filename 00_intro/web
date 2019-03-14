@@ -1,0 +1,7 @@
+NameVirtualHost *:9000
+
+<VirtualHost *:9000>
+ServerName prueba.com
+ServerAlias www.prueba.com
+DocumentRoot /var/www/html/prueba.html/
+</VirtualHost>
