@@ -10,7 +10,7 @@ RUN apk add --no-cache apache2 && \
     cd /var/www/localhost/htdocs && \
     wget -O icesi.html http://www.icesi.edu.co && \
     echo "<html><body><h1>YO SOY JULIÁN NIÑO</h1></body></html>" > /var/www/localhost/htdocs/student.html 
-EXPOSE 80
+
 
 ENTRYPOINT ["/usr/sbin/httpd"]
 CMD ["-D", "FOREGROUND"]
