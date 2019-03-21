@@ -9,7 +9,7 @@ RUN apk add --no-cache apache2 && \
     apk add ca-certificates && \
     cd /var/www/localhost/htdocs && \
     wget -O icesi.html http://www.icesi.edu.co && \
-    echo "<html><head><title>Clase Distribuidos></title></head><body><h1>Steven Montealegre</h1></body></html>" > /var/www/localhost/htdocs/student.html    
+    echo "<h1>Steven Montealegre Gutiérrez.</h1>" > /var/www/localhost/htdocs/student.html    
 
 EXPOSE 80
 
