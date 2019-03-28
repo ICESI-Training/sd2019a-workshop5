@@ -6,8 +6,8 @@ RUN apk add --no-cache bash python py2-pip &&\
     pip2 install --upgrade pip &&\
     pip2 install flask 
 
-COPY app.py app.py
+COPY greedy.py greedy.py
 EXPOSE 8080
-CMD ["/usr/bin/python","app.py"]
+CMD ["/usr/bin/python","greedy.py"]
 
 
