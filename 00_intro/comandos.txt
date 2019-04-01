@@ -1,0 +1,3371 @@
+    1  exit
+    2  zsh
+    3  vi $ZSH_CUSTOM/distribuidos.zsh
+    4  source ~/.zshrc
+    5  pip3 list
+    6  pip3 install virtualwnvwrapper --user
+    7  pip3 install virtualenvwrapper --user
+    8  sudo pip3 install virtualenvwrapper --user
+    9  source ~/.zshrc
+   10  clear
+   11  pip3 list
+   12  sudo pip3 install virtualenvwrapper --user
+   13  source ~/.zshrc
+   14  pip3 list
+   15  sudo pip3 install virtualenvwrapper --user
+   16  ls /home/distribuidos/
+   17  ls /home/distribuidos/ -al
+   18  sudo pip3 uninstall virtualenvwrapper 
+   19  sudo pip3 install virtualenvwrapper --user
+   20  ls -al /home/distribuidos/.cache/
+   21  chown -R distribuidos:distribuidos /home/distribuidos/.cache/
+   22  sudo chown -R distribuidos:distribuidos /home/distribuidos/.cache/
+   23  sudo pip3 uninstall virtualenvwrapper 
+   24  sudo pip3 install virtualenvwrapper --user
+   25  sudo chown -R distribuidos:distribuidos /home/distribuidos/.cache/
+   26  ls -al /home/distribuidos/.cache/
+   27  pip3 list
+   28  vi $ZSH_CUSTOM/distribuidos.zsh
+   29  source ~/.zshrc
+   30  mkvirtualenv
+   31  vi ~/.zshrc
+   32  pip3 uninstall virtualenvwrapper
+   33  pip3 install virtualenvwrapper
+   34  pip3 install virtualenvwrapper --user
+   35  chwon -R distribuidos:distribuidos /home/distribuidos/.local
+   36  sudo chown -R distribuidos:distribuidos /home/distribuidos/.local
+   37  pip3 install virtualenvwrapper --user
+   38  source ~/.zshrc
+   39  pip3 list
+   40  mkvirtualenv
+   41  vi ~/.zshrc
+   42  source ~/.zshrc
+   43  mkvirtualenv icesi-test
+   44  wget https://raw.githubusercontent.com/ICESI/iot-raspberrypi/integration/automation/templates/vimrc_bundle -O ~/.vimrc
+   45  echo "Installing vim..."\nsudo apt install vim exuberant-ctags ack-grep -y\necho "Installing python support..."\nsudo apt-get install vim-nox -y\n# sudo apt-get install vim-nox-py2 -y\necho "Updating configurations..."\ncp ../templates/vimrc_bundle ~/.vimrc\necho "Installing plugins..."\nmkdir -p ~/.vim/autoload ~/.vim/bundle
+   46  git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+   47  vi ~/.vimrc
+   48  clear
+   49  vi ~/.vimrc
+   50  clear
+   51  ls
+   52  cd Documents
+   53  cd DistributedSystems
+   54  cd zehcort
+   55  ls
+   56  cd sd-workshop0
+   57  ls
+   58  cd A00054648
+   59  ls
+   60  cd activity1
+   61  clear
+   62  tmux -s new-session distribuidos
+   63  tmux new-session -s distribuidos
+   64  clear
+   65  vi Vagrantfile
+   66  clear
+   67  nano ~/.vimrc
+   68  vi ~/.vimrc
+   69  clear
+   70  vi Vagrantfile
+   71  ip a
+   72  vagrant up
+   73  vagrant ssh
+   74  vi Vagrantfile
+   75  vagrant ssh
+   76  cd ..
+   77  clear
+   78  mkdir activity3
+   79  clear
+   80  mkdir DHCP_server DHCP_client
+   81  ls
+   82  rm -r DHCP_server
+   83  rm -r DHCP_client
+   84  CLEAR
+   85  clear
+   86  ls
+   87  cd activity3
+   88  clear
+   89  mkdir DHCP_server DHCP_client
+   90  clear
+   91  ls
+   92  cd DHCP_server
+   93  vagrant init centos1706_v0.2.0-1
+   94  vi Vagrantfile
+   95  sudo apt-get purge lightdm
+   96  sudo apt-get update
+   97  sudo apt-get install lightdm
+   98  dpkg-reconfigure lightdm
+   99  sudo dpkg-reconfigure lightdm
+  100  sudo shutdown -r 
+  101  sudo shutdown -r now
+  102  clear
+  103  git clone https://github.com/zehcort/sd2018b-workshop2
+  104  cd sd2018b-workshop2
+  105  clear
+  106  gco ltrochez/workshop2
+  107  clear
+  108  ls
+  109  cd ..
+  110  git pull 
+  111  ls
+  112  cd so-microservices-python-part2
+  113  ls
+  114  cd ..
+  115  ls
+  116  rm -r so-microservices-python-part2
+  117  clear
+  118  ls
+  119  git add -A
+  120  CLEAR
+  121  clear
+  122  ls
+  123  git add -A
+  124  git commit -m "update folder py"
+  125  clear
+  126  ggp
+  127  LS
+  128  ls
+  129  mkdir A00054648
+  130  ls
+  131  cd A00054648
+  132  git clone https://github.com/ICESI/so-microservices-python-part2.git
+  133  ls
+  134  clear
+  135  cd ..
+  136  git add -A
+  137  git commit -m "update with array response"
+  138  clear
+  139  gpp
+  140  ggp
+  141  clear
+  142  tmux -s new-session distribuidos
+  143  ls
+  144  cd A00054648
+  145  ls
+  146  cat requirements.txt
+  147  clear
+  148  tree
+  149  cd gm_analytics
+  150  cd swagger
+  151  clear
+  152  vim
+  153  ls
+  154  cd ..
+  155  clear
+  156  ls
+  157  export PYTHONPATH=$PYTHONPATH:`pwd`
+  158  export FLASK_ENV=development
+  159  connexion run gm_analytics/swagger/indexer.yaml --debug -p 8088 -H 127.0.0.1
+  160  connexion run gm_analytics/swagger/indexer.yaml --debug -p 8088
+  161  workon gm_icesi
+  162  workon icesi-test
+  163  connexion run gm_analytics/swagger/indexer.yaml --debug -p 8088
+  164  mkvirtualenv gm_icesi
+  165  pip3 install -r requirements.txt
+  166  cat scripts
+  167  cat scripts/deploy.sh
+  168  export PYTHONPATH=$PYTHONPATH:`pwd`
+  169  export FLASK_ENV=development
+  170  connexion run gm_analytics/swagger/indexer.yaml --debug -p 8088
+  171  clear
+  172  cd ..
+  173  exit
+  174  ls
+  175  cd Documents
+  176  ls
+  177  clear
+  178  cd DistributedSystems
+  179  ls
+  180  cd zehcort
+  181  ls
+  182  cd sd-workshop0
+  183  ls
+  184  cd A00054648
+  185  ls
+  186  cd activity3
+  187  ls
+  188  cd DHCP_client
+  189  ls
+  190  wget https://github.com/rubendcm9708/sd-workshop0/blob/rceballos/sd-workshop0/A00054636/activity2/DHCP_Client/Vagrantfile
+  191  vagrant up
+  192  clear
+  193  ls
+  194  vi Vagrantfile
+  195  vagrant up
+  196  rm -r Vagrantfile
+  197  ls
+  198  clear
+  199  vi Vagrantfile
+  200  vagrant up
+  201  ip a
+  202  vagrant ssh
+  203  git add -A
+  204  git commit -m
+  205  git commit -m "DHCP_Client updated"
+  206  ggp
+  207  tmux -s new-session distribuidos
+  208  tmux new-session -s distribuidos
+  209  clear
+  210  ls
+  211  cd Documents
+  212  ls
+  213  cd DistributedSystems
+  214  ls
+  215  cd zehcort
+  216  ls
+  217  cd sd-workshop0
+  218  ls
+  219  clear
+  220  cd A00054648
+  221  ls
+  222  clear
+  223  cd activity3
+  224  ls
+  225  cd DHCP_client
+  226  ls
+  227  clear
+  228  ls
+  229  vim 
+  230  vi Vagrantfile
+  231  vim
+  232  vagrant status
+  233  clear
+  234  vagrant up
+  235  vagrant ssh
+  236  history
+  237  clear
+  238  ls
+  239  cd Documents
+  240  ls
+  241  cd DistributedSystems
+  242  cd zehcort
+  243  ls
+  244  cd sd-workshop0
+  245  ls
+  246  cd A00054648
+  247  cd activity3
+  248  ls
+  249  mkdir {00_intro, 01_client, 02_server}
+  250  mkdir -p {00_intro, 01_client, 02_server} 
+  251  mkdir -p {00_intro,01_client,02_server} 
+  252  ls
+  253  clear
+  254  cd ..
+  255  ls
+  256  cd activity
+  257  cd activity3
+  258  ls
+  259  cd Documents
+  260  ls
+  261  cd DistributedSystems
+  262  ls
+  263  clear
+  264  cd zehcort
+  265  ls
+  266  cd sd-workshop0
+  267  ls
+  268  cd A00054648
+  269  cd activity3
+  270  ls
+  271  cd DHCP_client
+  272  ls
+  273  cp DHCP_client/Vagrantfile 01_client 
+  274  ls
+  275  cd 01_client
+  276  ls
+  277  clear
+  278  CD ..
+  279  }cd ..
+  280  cd ..
+  281  clear
+  282  ls
+  283  mv DHCP_client/Vagrantfile 00_intro
+  284  CLEAR
+  285  clear
+  286  ls
+  287  rm -r DHCP_client
+  288  rm -r DHCP_server
+  289  LS
+  290  ls
+  291  clear
+  292  ls
+  293  cd ..
+  294  ls
+  295  cd ..
+  296  ls
+  297  vi .gitignore
+  298  ls
+  299  cd A00054648
+  300  ls
+  301  cd activity
+  302  cd activity3
+  303  ls
+  304  cd 01_client
+  305  vagrant up
+  306  vagrant ssh
+  307  clear
+  308  cclear
+  309  clear
+  310  cd ..
+  311  ls
+  312  clear
+  313  cd ..
+  314  clear
+  315  cd ..
+  316  clear
+  317  ls
+  318  git add -A
+  319  git commit -m "added mirror client"
+  320  ggp
+  321  ls
+  322  eject
+  323  chmod 777 /dev/sr0
+  324  sudo chmod 777 /dev/sr0
+  325  eject
+  326  eject -t
+  327  eject
+  328  eject -t
+  329  eject
+  330  exit
+  331  ls
+  332  cd ..
+  333  ls
+  334  cd zehcort
+  335  git clone https://github.com/zehcort/sd-workshop0.git
+  336  gco avalderrama/sd-workshop0
+  337  cd sd-workshop0
+  338  gco avalderrama/sd-workshop0
+  339  gco avalderrama/workshop00
+  340  clear
+  341  ls
+  342  cp A00065868 /Documents/DistributedSystems
+  343  cp -r A00065868 /Documents/DistributedSystems
+  344  cp -R A00065868 /Documents/DistributedSystems
+  345  cp -R A00065868 A00054648
+  346  clear
+  347  git add -A
+  348  git commit -m "Update folders"
+  349  gco ltrochez/sd-workshop0
+  350  clear
+  351  ls
+  352  LS
+  353  ls
+  354  cd ..
+  355  l
+  356  ls
+  357  clear
+  358  cp -R A00054648 /home/distribuidos/Documents/DistributedSystems/zehcort/sd-workshop0
+  359  clear
+  360  cd sd-workshop0
+  361  clear
+  362  git add -A
+  363  git commit -m "adding folder"
+  364  gpp
+  365  ggp
+  366  clear
+  367  su distribuidos 
+  368  clear
+  369  cd ..
+  370  clear
+  371  cd distribuidos
+  372  clear
+  373  pip install Flask
+  374  clear
+  375  ls
+  376  cat examples.desktop
+  377  clear
+  378  rm -r examples.desktop
+  379  clear
+  380  ls
+  381  rm -r iot-raspberrypi-integration
+  382  cd SD
+  383  ls
+  384  clear
+  385  ls
+  386  cd sd-quiz0
+  387  clear
+  388  cd ..
+  389  clear
+  390  cd ..
+  391  ls
+  392  rm -r SD
+  393  clear
+  394  sudo rm -r SD
+  395  clear
+  396  ls
+  397  cd bin
+  398  ls
+  399  cd ..
+  400  ls
+  401  cd convergentes
+  402  ls
+  403  cd ..
+  404  cd home
+  405  cd distribuidos
+  406  ls
+  407  cd bin
+  408  ls
+  409  cat tig
+  410  clear
+  411  rm -r bin
+  412  cd ..
+  413  rm -r bin
+  414  clear
+  415  ls
+  416  cd etc
+  417  ls
+  418  cd ..
+  419  clear
+  420  rm -r etc
+  421  clear
+  422  ls
+  423  cd Templates
+  424  ls
+  425  clear
+  426  cd ..
+  427  ls
+  428  cd Do
+  429  cd Documents
+  430  ls
+  431  cd DistributedSystems
+  432  clear
+  433  ls
+  434  cd Imagenes
+  435  ls
+  436  clear
+  437  cd ..
+  438  ls
+  439  cd Documents
+  440  clear
+  441  cd DistributedSystems
+  442  cd zehcort
+  443  clear
+  444  ls
+  445  clear
+  446  git clone https://github.com/ICESI/so-microservices-python-part2
+  447  clear
+  448  celar
+  449  clear
+  450  ls
+  451  cd 03_unit_tests
+  452  clear
+  453  ls
+  454  cat requirements
+  455  cat requirements.txt
+  456  clear
+  457  vi requirements.txt
+  458  vi requirements_dev.txt
+  459  cd tests
+  460  ls
+  461  cat test_handlers.py
+  462  vi test_handlers.py
+  463  cd ..
+  464  mkvirtualenv gm_analytics_test
+  465  clear
+  466  mkvirtualenv gm_analytics_tests
+  467  pip3 install -r requirements_dev.txt
+  468  clear
+  469  pytest
+  470  clear
+  471  cat scripts/deploy.sh
+  472  export PYTHONPATH=$PYTHONPATH: `pwd`
+  473  export PYTHONPATH=$PYTHONPATH:`pwd`\n
+  474  clear
+  475  pytest
+  476  clear
+  477  ls
+  478  vi tests/test_handlers.py 
+  479  pytest
+  480  clear
+  481  cd ..
+  482  clear
+  483  ls
+  484  cd 03
+  485  cd 03_unit_tests/+
+  486  cd 03_unit_tests/
+  487  clear
+  488  pytest
+  489  vi tests/test_handlers.py 
+  490  clear
+  491  pytest
+  492  vi tests/test_handlers.py 
+  493  pytest
+  494  vi tests/test_handlers.py 
+  495  clear
+  496  pytest
+  497  vi tests/test_handlers.py 
+  498  clear
+  499  vi tests/test_handlers.py 
+  500  curl 127.0.0.1:8088/health
+  501  vi tests/test_handlers.py 
+  502  cd ..
+  503  cler
+  504  clear
+  505  ls
+  506  cd 03_unit_tests
+  507  ls
+  508  cd gm_analytics
+  509  ls
+  510  vi handlers.py
+  511  ls
+  512  cd Documents
+  513  ls
+  514  cd DistributedSystems
+  515  ls
+  516  cd zehcort
+  517  ls
+  518  rm -r
+  519  rm -r so-microservices-python-part2
+  520  clear
+  521  git config --global user.email "zehcort@hotmail.es"
+  522  cd Documents
+  523  cd DistributedSystems
+  524  cd zehcort
+  525  git clone https://github.com/zehcort/sd2018b-exam1.git
+  526  clear
+  527  ls
+  528  cd sd2018b-exam1
+  529  vagrant status
+  530  ls
+  531  gco ltrochez/exam1
+  532  ls
+  533  clear
+  534  vagrant status
+  535  vagrant up
+  536  nano Vagrantfile
+  537  git clone https://github.com/ICESI-Training/sd2018b-travis-test.git
+  538  cd sd2018b-travis-test
+  539  clear
+  540  git clone https://github.com/zehcort/sd2018b-travis-test.git
+  541  clear
+  542  cd sd2018b-travis-test
+  543  gco ltrochez/initial_setup
+  544  clear
+  545  ls
+  546  git clone
+  547  git clone 
+  548  git clone https://github.com/zehcort/sd2018b-travis-test.git
+  549  cd sd2018b-travis-test
+  550  clear
+  551  gco ltrochez/initial_setup
+  552  clear
+  553  export PYTHONPATH=$PYTHONPATH:`pwd`
+  554  pytest
+  555  clear
+  556  cd ..
+  557  clear
+  558  cd sd2018b-travis-test
+  559  clear
+  560  vagrant status
+  561  nano Vagrantfile
+  562  box list
+  563  vagrant box lis
+  564  vagrant box list
+  565  vagrant box remove centos1706_v0.2.0
+  566  vagrant box remove centos1706_v0.2.0-1
+  567  clear
+  568  vagrant box list
+  569  vagrant box add
+  570  clear
+  571  vagrant box add 
+  572  vagrant box add centos1706_v0.2.0-1 /home/distribuidos/Documents/DistributedSystems/images
+  573  vagrant box add /home/distribuidos/Documents/DistributedSystems/images/centos1706_v0.2.0-1
+  574  vagrant box add centos1706 /home/distribuidos/Documents/DistributedSystems/images/centos1706_v0.2.0-1
+  575  nano Vagrantfile
+  576  clear
+  577  ls
+  578  nano Vagrantfile
+  579  clear
+  580  ls}
+  581  clear
+  582  vagrant up
+  583  vagrant status
+  584  vagrant up
+  585  vagrant status
+  586  clear
+  587  vagrant ssh
+  588  vagrant ssh ci-server
+  589  nano Vagrantfile
+  590  vagrant ssh ci_server
+  591  clear
+  592  ggp
+  593  clear
+  594  vagrant halt
+  595  git add -A
+  596  git commit -m "Update endpoint"
+  597  ggp
+  598  clear
+  599  ssh dsitribuidos@192.168.130.215
+  600  ssh diStribuidos@192.168.130.215
+  601  ssh distribuidos@192.168.130.215
+  602  clear
+  603  cd Documents
+  604  cd  DistributedSystems
+  605  cd zehcort
+  606  cd sd2018b-exam1
+  607  clear
+  608  ls
+  609  clear
+  610  cd cookbooks
+  611  ls
+  612  mkdir ci-server
+  613  ls
+  614  cd ci-server
+  615  ssh distribuidos@192.168.130.215
+  616  clear
+  617  cd ci-server
+  618  clear
+  619  mkdir recipes
+  620  touche default.rb
+  621  clear
+  622  touch default.rb
+  623  touch ci-server_init.rb
+  624  touch ci-server_start.rb
+  625  touch ci-server_config.rb
+  626  nano default.rb
+  627  clear
+  628  ls
+  629  nano ci-server_init.rb
+  630  claer
+  631  clear
+  632  tmux -s newsession distribuidos
+  633  tmux newsession -s distribuidos
+  634  sudo apt-get update
+  635  sudo apt-get install tmux
+  636  tmux newsession -s distribuidos
+  637  tmux new-session -s distribuidos
+  638  exir
+  639  exit
+  640  tmux new-session -s distribuidos
+  641  clear
+  642  ls
+  643  nano ci-server_start.rb
+  644  nano ci-server_init.rb
+  645  clear
+  646  vagrant satus
+  647  clear
+  648  cd ..
+  649  vagrant status
+  650  vagrant up
+  651  vagrant ssh ci-server
+  652  nano Vagrantfile 
+  653  vagrant ssh ci_server
+  654  vagrant ssh mirror
+  655  vagrant ssh mirror_server
+  656  vagrant ssh dhcp_server
+  657  vagrant ssh ci_server
+  658  clear
+  659  vagrant destroy
+  660  vagrant up
+  661  vagrant ssh ci_server
+  662  clear
+  663  cd cookbooks/recipes
+  664  cd cookbooks/
+  665  cd ..
+  666  cd cookbooks/ci-server
+  667  clear
+  668  ls
+  669  mv ci-server_init.rb install_python3.6_and_tools.rb
+  670  ls
+  671  clear
+  672  ls -l
+  673  nano install_python3.6_and_tools.rb
+  674  nano default.rb
+  675  nano install_python3.6_and_tools.rb
+  676  clear
+  677  lw
+  678  ls
+  679  mv ci-server_config.rb install_ngrok.rb
+  680  clear
+  681  ls
+  682  nano install_ngrok.rb
+  683  cat install_python3.6_and_tools.rb
+  684  nano install_ngrok.rb
+  685  ls
+  686  vagrant ssh ci_server
+  687  ls
+  688  nano install_ngrok.rb
+  689  vagrant ssh ci_server
+  690  nano install_ngrok.rb
+  691  ls
+  692  nano default.rb
+  693  clear
+  694  mv ci-server_start.rb install_wget.rb
+  695  nano install_wget.rb
+  696  cat install_python3.6_and_tools.rb
+  697  nano install_python3.6_and_tools.rb
+  698  nano install_ngrok.rb
+  699  clear
+  700  ls
+  701  cp install_wget.rb install_unzip.rb
+  702  ls
+  703  nano install_unzip.rb
+  704  clear
+  705  ls
+  706  nano default.rb
+  707  clear
+  708  cd ..
+  709  ls
+  710  clear
+  711  ls
+  712  cd dhcp
+  713  ls
+  714  cd recipes
+  715  ls
+  716  nano dhcp_init.rb
+  717  clear
+  718  cd ..
+  719  ls
+  720  cd ..
+  721  clear
+  722  cd ..
+  723  ggp
+  724  git add -A
+  725  clear
+  726  ls
+  727  git commit -m "Update provision CI-server"
+  728  clear
+  729  ggp
+  730  exit 
+  731  exit
+  732  clear
+  733  git add -A
+  734  git commit -m "Update provision of CI-server"
+  735  ggp
+  736  git pull --rebase
+  737  git push
+  738  git add -A
+  739  git commit -m "Update and rebase"
+  740  ggp
+  741  clear
+  742  ls
+  743  cat install_ngrok.rb
+  744  cat install_python3.6_and_tools.rb
+  745  clear
+  746  tmux new-session -s distribuidos
+  747  clear
+  748  ls
+  749  clear
+  750  cd ..
+  751  clear
+  752  vagrant status
+  753  vagrant destroy
+  754  clear
+  755  vagrant status
+  756  vagrant up
+  757  vagrant status
+  758  clear
+  759  vagrant ssh ci_server
+  760  clear
+  761  nano Vagrantfile
+  762  vagrant destroy
+  763  nano Vagrantfile
+  764  vagrant destroy
+  765  vagrant status
+  766  clear
+  767  nano Vagrantfile
+  768  clear
+  769  vagrant up
+  770  vagrant status
+  771  nano Vagrantfile
+  772  cd cookbooks
+  773  ls
+  774  clear
+  775  ls
+  776  clear
+  777  cd ..
+  778  nano Vagrantfile
+  779  clear
+  780  vagrant destroy
+  781  clear
+  782  vagrant up
+  783  nano Vagrantfile
+  784  cd cookbooks
+  785  ls
+  786  mv ci-server ci
+  787  ls
+  788  cd ci
+  789  ls
+  790  clear
+  791  ls
+  792  cd ..
+  793  clear
+  794  nano Vagrantfile
+  795  ls
+  796  cat Vagrantfile
+  797  vagrant destroy 
+  798  clear
+  799  vagrant up
+  800  vagrant destroy 
+  801  clear
+  802  ls
+  803  nano Vagrantfile
+  804  exit}
+  805  exit
+  806  gaa
+  807  git add -A
+  808  git commit -m "Update Ci"
+  809  ggp
+  810  clear
+  811  ls
+  812  cd ..
+  813  ls
+  814  clear
+  815  ls
+  816  vagrant status
+  817  clear
+  818  vagrant up
+  819  ls
+  820  cd ci
+  821  ls
+  822  nano default.rb
+  823  cd ..
+  824  ls
+  825  cd dhcp
+  826  ls
+  827  cd recipes
+  828  ls
+  829  nano default.rb
+  830  ls
+  831  cd ..
+  832  ls
+  833  cd ..
+  834  ls
+  835  cd ci
+  836  ls
+  837  nano default.rb
+  838  clear
+  839  ls
+  840  cd ..
+  841  ls
+  842  cd ..
+  843  clear
+  844  vagrant destroy
+  845  vagrant up
+  846  nano Vagrantfile
+  847  vagrant status
+  848  clear
+  849  vagrant destroy
+  850  clear
+  851  ls
+  852  vagrant status
+  853  vagrant up
+  854  nano Vagrantfile
+  855  cd ci
+  856  cd cookbooks
+  857  cd ci
+  858  clear
+  859  ls
+  860  nano default.rb
+  861  atom .
+  862  git add -A
+  863  git commit -m "Update ci-server and vagrant file"
+  864  gpp
+  865  ggp
+  866  clear
+  867  cd Documents/DistributedSystems/zehcort/sd2018b-exam1
+  868  clear
+  869  git add -A
+  870  git commit -m "Update repo"
+  871  ggp
+  872  clear
+  873  vagrant status
+  874  clear
+  875  cd cookbooks
+  876  ls
+  877  cd ci
+  878  ls
+  879  nano default.rb
+  880  rm -r default.rb.save
+  881  rm -r install_ngrok.rb.save
+  882  clear
+  883  ls
+  884  clear
+  885  gaa
+  886  git commit -m "Delete unnecesary files"
+  887  ggp
+  888  clear
+  889  ls
+  890  nano default.rb
+  891  cd ..
+  892  cd mirror
+  893  clear
+  894  nano recipes
+  895  cd recipes
+  896  ls
+  897  clear
+  898  ls
+  899  cd ..
+  900  ls
+  901  cd ..
+  902  cd ci
+  903  mkdir recipes
+  904  ls
+  905  cd recipes
+  906  ls
+  907  clear
+  908  ls
+  909  cler
+  910  clear
+  911  gaa
+  912  git commit -m "Update directories"
+  913  clear
+  914  ggp
+  915  clear
+  916  cd ..
+  917  clear
+  918  vagrant status
+  919  vagrant up
+  920  vagrant status
+  921  vagrant ssh ci_server
+  922  vagrant ssh dhcp_server
+  923  clear
+  924  vagrant ssh ci_server
+  925  atom .
+  926  vagrant destroy
+  927  clear
+  928  vagrant status
+  929  vagrant up
+  930  clear
+  931  vagrant destroy
+  932  clear
+  933  vagrant up
+  934  vagrant destroy
+  935  clear
+  936  vagrant status
+  937  vagrant up
+  938  clear
+  939  vagrant status
+  940  vagrant destroy ci_server
+  941  vagrant up ci_server
+  942  clear
+  943  vagrant status
+  944  vagrant up ci_server
+  945  yum install -y https://centos7.iuscommunity.org/ius-release.rpm
+  946  vagrant status
+  947  vagrant ssh ci_server
+  948  vagrant destroy ci_server
+  949  clear
+  950  vagrant status
+  951  vagrant up ci_server
+  952  clear
+  953  vagrant status
+  954  clear
+  955  vagrant up client
+  956  vagrant status
+  957  clear
+  958  gaa
+  959  git commit -m "Update vagrant and IPS"
+  960  ggp
+  961  clear
+  962  ls
+  963  vagrant ssh client
+  964  vagrant ssh ci_server
+  965  clear
+  966  vagrant ssh mirror_server
+  967  clear
+  968  ls
+  969  cd cookbooks
+  970  clear
+  971  ls
+  972  cd mirror_server
+  973  ls
+  974  cd files
+  975  ls
+  976  cd default
+  977  ls
+  978  nano sshd_config
+  979  cat sshd_config
+  980  clear
+  981  ls
+  982  gaa
+  983  vagrant destroy mirror_server
+  984  vagrant up mirror_server
+  985  clear
+  986  vagrant status
+  987  clear
+  988  gaa
+  989  git add -A
+  990  git commit -m "Update mirror server"
+  991  ggp
+  992  vagrant destroy
+  993  clear
+  994  vagrant status
+  995  clear
+  996  cd ..
+  997  clear
+  998  gaa
+  999  git commit -m "Update mirror ssh service"
+ 1000  ggp
+ 1001  git push --help
+ 1002  git pull --rebase
+ 1003  git push
+ 1004  clear
+ 1005  vagrant up
+ 1006  cd cookbooks/mirror_server/recipes
+ 1007  ls
+ 1008  touch config_ssh.rb
+ 1009  ls
+ 1010  clear
+ 1011  ls
+ 1012  touch init_ssh.rb
+ 1013  vagrant destroy mirror
+ 1014  vagrant destroy mirror_server
+ 1015  clear
+ 1016  ls
+ 1017  clear
+ 1018  cd ..
+ 1019  ls
+ 1020  clear
+ 1021  vagrant status
+ 1022  vagrant up mirror_server
+ 1023  clear
+ 1024  cd cookbooks/mirror_server/recipes
+ 1025  cd ..
+ 1026  clear
+ 1027  vagrant status
+ 1028  vagrant up mirror_server
+ 1029  vagrant ssh ci_server
+ 1030  vagrant ssh mirror_server
+ 1031  vagrant ssh ci_server
+ 1032  gaa
+ 1033  gcmsg 
+ 1034  git commit -m "Complete mirror"
+ 1035  ggp
+ 1036  clear
+ 1037  cd cookbooks/ci_server/files/default/endpoint/requirements.txt
+ 1038  cd cookbooks/ci_server/files/default/endpoint/
+ 1039  nano requirements.txt
+ 1040  celar
+ 1041  clear
+ 1042  cd ..
+ 1043  cd recipes
+ 1044  nano install_handler.rb
+ 1045  clear
+ 1046  cd ..
+ 1047  clear
+ 1048  cd cookbooks/ci_server/files
+ 1049  clear
+ 1050  cd default
+ 1051  cd endpoint
+ 1052  clear
+ 1053  ls
+ 1054  cd gm_analytics
+ 1055  ls
+ 1056  touch handlers.py
+ 1057  ls
+ 1058  cd ..
+ 1059  cd scripts
+ 1060  ls
+ 1061  touch deploy.sh
+ 1062  clear
+ 1063  vagrant destroy
+ 1064  cd ..
+ 1065  ls
+ 1066  cd gm_analytics
+ 1067  ls
+ 1068  cd swagger
+ 1069  nano indexer.yaml
+ 1070  ls
+ 1071  cat indexer.yaml
+ 1072  clear
+ 1073  cd ..
+ 1074  clear
+ 1075  gaa
+ 1076  git commit -m "Creating endpoint"
+ 1077  ggp
+ 1078  clear
+ 1079  cd cookbooks/client
+ 1080  ls
+ 1081  cd files
+ 1082  clear
+ 1083  cd ..
+ 1084  cd files
+ 1085  clear
+ 1086  nano hosts
+ 1087  ls
+ 1088  clear
+ 1089  ls
+ 1090  nano icesi.repo
+ 1091  clear
+ 1092  ls
+ 1093  clear
+ 1094  ls
+ 1095  cd ..
+ 1096  ls
+ 1097  cd recipes
+ 1098  clear
+ 1099  ls
+ 1100  nano hosts_config.rb
+ 1101  nano default.rb
+ 1102  nano delete_repos.rb
+ 1103  nano repo_config.rb
+ 1104  ls
+ 1105  nano make_yum.rb
+ 1106  ls
+ 1107  clear
+ 1108  vagrant destroy
+ 1109  vagrant up
+ 1110  \n  yum repolistclear
+ 1111  clear
+ 1112  ls
+ 1113  cd ..
+ 1114  ls
+ 1115  cd httpd
+ 1116  clear
+ 1117  ls
+ 1118  cd recipes
+ 1119  touch default.rb
+ 1120  touch httpd_config.rb
+ 1121  touch httpd_install.rb
+ 1122  vagrant destroy mirror_server
+ 1123  clear
+ 1124  cd ..
+ 1125  clear
+ 1126  vagrant up mirror_server
+ 1127  vagrant status
+ 1128  vagrant destroy client
+ 1129  vagrant up client
+ 1130  vagrant ssh client
+ 1131  clear
+ 1132  vagrant ssh ci_server
+ 1133  vagrant destroy ci_server
+ 1134  vagrant up ci_server
+ 1135  vagrant destroy ci_server
+ 1136  vagrant up ci_server
+ 1137  ls
+ 1138  vagrant ssh ci_server
+ 1139  clear
+ 1140  ls
+ 1141  s
+ 1142  ls
+ 1143  clear
+ 1144  vagrant destroy ci_server
+ 1145  vagrant up ci_server
+ 1146  vagrant ssh ci_server
+ 1147  vagrant destroy
+ 1148  clear
+ 1149  git add -A
+ 1150  git commit -m "Update repos"
+ 1151  ggp
+ 1152  ls
+ 1153  cler
+ 1154  clear
+ 1155  ls
+ 1156  clear
+ 1157  vagrant up
+ 1158  clear
+ 1159  vagrant destroy
+ 1160  y
+ 1161  vagrant destroy
+ 1162  clear
+ 1163  tmux new-session -s distribuidos
+ 1164  cd Documents/DistributedSystems/zehcort
+ 1165  git clone https://github.com/ICESI/so-microservices-python-part2.git
+ 1166  ls
+ 1167  clea
+ 1168  clar
+ 1169  clear
+ 1170  cd so-microservices-python-part2
+ 1171  clear
+ 1172  ls
+ 1173  cat README.md
+ 1174  clear
+ 1175  git pull origin master
+ 1176  git stash
+ 1177  git pull origin master
+ 1178  ls
+ 1179  nano README.md
+ 1180  git stash
+ 1181  git pull origin master
+ 1182  cd 05_artifacts
+ 1183  clear
+ 1184  ls
+ 1185  nano README.md
+ 1186  docker run -it --rem centos /bin/bash
+ 1187  docker run -it --rm centos /bin/bash
+ 1188  sudo docker run -it --rm centos /bin/bash
+ 1189  docker pull centos
+ 1190  sudo docker pull centos
+ 1191  sudo gpasswd -a $USER docker
+ 1192  newgrp docker
+ 1193  docker pull centos
+ 1194  docker pull ubuntu
+ 1195  clear
+ 1196  cd >Documents/DistributedSystems/zehcort/
+ 1197  cd >Documents/DistributedSystems/zehcort
+ 1198  cd >Documents/DistributedSystems/zehcort/+
+ 1199  ls
+ 1200  cd Documents/DistributedSystems/zehcort
+ 1201  clear
+ 1202  ls
+ 1203  cd so-microservices-python-part2
+ 1204  docker pull centos
+ 1205  docker pull ubuntu
+ 1206  clear
+ 1207  cd 05_artifacts
+ 1208  ls
+ 1209  docker pull alpine
+ 1210  sudo apt install juju -y
+ 1211  clear
+ 1212  rm -rf build dist
+ 1213  ls
+ 1214  workon gm_analytics_tests
+ 1215  python3 setup.py bdist --formats=rpm
+ 1216  sudo apt-get install rpm
+ 1217  python3 setup.py bdist --formats=rpm
+ 1218  cd dist
+ 1219  ls
+ 1220  tar xfv gm_analytics-0.1.0.dev20181010.tar.gz
+ 1221  ls
+ 1222  ssh distribuidos@192.168.130.215
+ 1223  ping 192.168.130.215
+ 1224  clear
+ 1225  sftp
+ 1226  cd ..
+ 1227  ls
+ 1228  python3 setup.py bdist_rpm --requires="python3 python3-pip"
+ 1229  vi build/bdist.linux-x86_64/rpm/SPECS/gm_analytics.spec
+ 1230  ls
+ 1231  vi dist/gm_analytics-0.1.0.dev20181010
+ 1232  sftp distribuidos@192.168.130.215
+ 1233  ping 192.168.130.215
+ 1234  ls+
+ 1235  cd dist
+ 1236  ls
+ 1237  cd ..
+ 1238  ls
+ 1239  cd Documents
+ 1240  cd DistributedSystems/zehcort
+ 1241  mkdir Workshops
+ 1242  ls
+ 1243  mkdir Exams Repositories
+ 1244  ls
+ 1245  mv so-microservices-python-part2 Repositories/so-microservices-python-part
+ 1246  ls
+ 1247  cd Repositories
+ 1248  ls
+ 1249  clear
+ 1250  cd ..
+ 1251  ls
+ 1252  mv sd2018b-exam1 Exams/sd2018b-exam1
+ 1253  clear
+ 1254  ls
+ 1255  cd Workshops
+ 1256  git clone https://github.com/abc1196/sd-workshop0.git
+ 1257  clera
+ 1258  clear
+ 1259  cd sd-workshop0
+ 1260  gco abueno/sd-workshop0
+ 1261  ls
+ 1262  cd ..
+ 1263  ls
+ 1264  git clone https://github.com/zehcort/sd2018b-workshop0.git
+ 1265  ls
+ 1266  cd sd2018b-workshop0
+ 1267  ls
+ 1268  gco ltrochez/sd-workshop0
+ 1269  ls
+ 1270  clear
+ 1271  gaa
+ 1272  git commit -m "Update files"
+ 1273  ggp
+ 1274  ls
+ 1275  CLEAR
+ 1276  clear
+ 1277  cd ..
+ 1278  clear
+ 1279  pwd
+ 1280  cd /home/distribuidos
+ 1281  cd Documents
+ 1282  cd DistributedSystems/zehcort
+ 1283  clear
+ 1284  cd Workshops
+ 1285  ls
+ 1286  clear
+ 1287  ls
+ 1288  git clone https://github.com/zehcort/sd2018b-workshop0.git
+ 1289  ls
+ 1290  cd sd2018b-workshop0
+ 1291  gco ltrochez/sd-workshop0
+ 1292  clear
+ 1293  ls
+ 1294  cd ..
+ 1295  rm -r sd2018b-workshop0
+ 1296  clear
+ 1297  ls
+ 1298  rm -r sd2018b-workshop0
+ 1299  sudo rm -r sd2018b-workshop0
+ 1300  lear
+ 1301  clear
+ 1302  ls
+ 1303  git clone https://github.com/zehcort/sd2018b-workshop1.git
+ 1304  cd sd2018b-workshop1
+ 1305  gco ltrochez/sd-workshop0
+ 1306  clear
+ 1307  ls
+ 1308  gaa
+ 1309  git commit -m "Update files"
+ 1310  ggp
+ 1311  git clone https://github.com/abc1196/sd-quiz0.git
+ 1312  ls
+ 1313  cd ..
+ 1314  cd Documents/DistributedSystems/zehcort/Workshops
+ 1315  ls
+ 1316  clear
+ 1317  git clone https://github.com/zehcort/sd-quiz0.git
+ 1318  ls
+ 1319  cd sd-quiz0
+ 1320  ls
+ 1321  gco abueno/quiz0
+ 1322  ls
+ 1323  gaa
+ 1324  git commit -m "Update README.md
+ 1325  git commit -m "Update README.md"
+ 1326  ggp
+ 1327  clear
+ 1328  ls
+ 1329  gco ltrochez/quiz0
+ 1330  ls
+ 1331  gaa
+ 1332  git commit -m "Update answer"
+ 1333  ggp
+ 1334  clear
+ 1335  ls
+ 1336  gco master
+ 1337  ls
+ 1338  rm -rf A00054648
+ 1339  ls
+ 1340  clear
+ 1341  gaa
+ 1342  git commit -m "Update directory"
+ 1343  ggp
+ 1344  clear
+ 1345  cd /home/distribuidos/Documents
+ 1346  cd DistributedSystems/zehcort/Repositories
+ 1347  ls
+ 1348  cd ..
+ 1349  ls 
+ 1350  cd Workshops
+ 1351  ls
+ 1352  cd alejo
+ 1353  ls
+ 1354  git clone https://github.com/abc1196/sd2018b-workshop2.git
+ 1355  cd ..
+ 1356  ls
+ 1357  rm -rf sd-quiz0
+ 1358  clear
+ 1359  ls
+ 1360  git clone https://github.com/zehcort/sd2018b-workshop2.git
+ 1361  cd alejo
+ 1362  ls
+ 1363  cd sd2018b-workshop2
+ 1364  ls
+ 1365  gco abueno/workshop2
+ 1366  cd ..
+ 1367  cd sd2018b-workshop2
+ 1368  ls
+ 1369  cd ..
+ 1370  cd sd2018b-workshop2
+ 1371  ls
+ 1372  gco ltrochez/workshop2
+ 1373  clear
+ 1374  ls
+ 1375  cd A00054648
+ 1376  ls
+ 1377  c,ear
+ 1378  claer
+ 1379  clear
+ 1380  gaa
+ 1381  git commit -m "Update directory"
+ 1382  ggp
+ 1383  ls
+ 1384  cd ..
+ 1385  ls
+ 1386  cd A00054648
+ 1387  ls
+ 1388  clear
+ 1389  ls
+ 1390  cd /home
+ 1391  cd distribuidos/Documents/DistributedSystems/zehcort
+ 1392  ls
+ 1393  cd Workshops
+ 1394  ls
+ 1395  git clone https://github.com/zehcort/sd2018b-travis-test.git
+ 1396  cd sd2018b-travis-test
+ 1397  gco ltrochez/initial_setup
+ 1398  clear
+ 1399  cd ..
+ 1400  cd alejo
+ 1401  git clone https://github.com/abc1196/sd2018b-travis-test.git
+ 1402  cd sd2018b-travis-test
+ 1403  ls
+ 1404  gco abueno/initial_setup
+ 1405  clear
+ 1406  ls
+ 1407  cd ..
+ 1408  cd sd2018b-travis-test
+ 1409  clear
+ 1410  gaa 
+ 1411  git commit -m "Update files"
+ 1412  ggp
+ 1413  clear
+ 1414  ssh root@192.168.130.138
+ 1415  ls
+ 1416  cd Downloads
+ 1417  clear
+ 1418  ls
+ 1419  clear
+ 1420  scp password.wav root@192.168.130.138:/var/lib/asterisk/sounds/ivr
+ 1421  clear
+ 1422  cd ..
+ 1423  clear
+ 1424  ssh root@192.168.130.138
+ 1425  clear
+ 1426  ls
+ 1427  cd Documents
+ 1428  ls
+ 1429  cd DistributedSystems
+ 1430  ls
+ 1431  cd zehcort
+ 1432  ls
+ 1433  clear
+ 1434  cd Repositories
+ 1435  ls
+ 1436  clear
+ 1437  git clone https://github.com/ICESI/ds-docker.git
+ 1438  cd ds-docker
+ 1439  clear
+ 1440  ls
+ 1441  exit
+ 1442  cd Documents/DistributedSystems/zehcort
+ 1443  ls
+ 1444  cd Exams
+ 1445  ls
+ 1446  clear
+ 1447  git clone https://github.com/zehcort/sd2018b-exam3.git
+ 1448  cd sd2018b-exam
+ 1449  cd sd2018b-exam3
+ 1450  gco ltrochez/exam3
+ 1451  clear
+ 1452  ls
+ 1453  mkdir 00_cpu_test
+ 1454  cd 00_cpu_test
+ 1455  ls
+ 1456  mkdir 00_without_container
+ 1457  mkdir 00_with_container
+ 1458  cd ..
+ 1459  cd 00_cpu_test
+ 1460  cd 00_without_container
+ 1461  wget https://raw.githubusercontent.com/ICESI/ds-docker/master/04_docker_cpu_test/01_without_container/greedy.py
+ 1462  workon gm_analytics
+ 1463  clear
+ 1464  tmux new-session -s distribuidos
+ 1465  top
+ 1466  curl 127.0.0.1:8080/greedy
+ 1467  python greedy.py
+ 1468  top
+ 1469  workon gm_icesi
+ 1470  python greedy.py
+ 1471  exit
+ 1472  clear
+ 1473  workon gm_analytics_tests
+ 1474  python greedy.py
+ 1475  curl 127.0.0.1:8080/greedy
+ 1476  top
+ 1477  cd ..
+ 1478  ls+
+ 1479  ls
+ 1480  clear
+ 1481  docker pull python:3.7.1-alpine3.8
+ 1482  cd ..
+ 1483  docker run -it --rm python:3.7.1-alpine3.8 (bin/sh
+ 1484  docker run -it --rm python:3.7.1-alpine3.8 /bin/sh
+ 1485  exit
+ 1486  clear
+ 1487  cd ..
+ 1488  cd 00_with_container
+ 1489  clear
+ 1490  vi Dockerfile
+ 1491  clear
+ 1492  cd 00_with_container
+ 1493  cp ../00_without_container/greedy.py .
+ 1494  ls
+ 1495  clear
+ 1496  vi Dockerfile
+ 1497  docker ps -a
+ 1498  docker ps 
+ 1499  ls
+ 1500  docker build -t icesi_cpu_test:0.1.0 .
+ 1501  ls
+ 1502  cd ..
+ 1503  cd ls
+ 1504  ls
+ 1505  cd 00_with_container
+ 1506  clear
+ 1507  ls
+ 1508  vi Dockerfile
+ 1509  docker build -t icesi_cpu_test:0.2.0 .
+ 1510  docker run -p 8080:8080 -d --name icesi_cpu_test icesi_cpu_test:0.2.0
+ 1511  docker ps
+ 1512  docker rm -f bc
+ 1513  docker rm -f icesi_cpu_test
+ 1514  docker ps
+ 1515  docker run -p 8080:8080 -d --name icesi_cpu_test icesi_cpu_test:0.2.0
+ 1516  docker ps
+ 1517  curl 127.0.0.1:8080/greedy
+ 1518  top
+ 1519  docker rm -f icesi_cpu_test
+ 1520  docker ps
+ 1521  docker run -p 8080:8080 --cpu-quota=50000 -d --name icesi_cpu_test icesi_cpu_test:0.2.0
+ 1522  curl 127.0.0.1:8080/greedy
+ 1523  top
+ 1524  clear
+ 1525  docker run -p 8080:8080 --cpu-quota=50000 -d --name icesi_cpu_test icesi_cpu_test:0.2.0
+ 1526  docker rm -f icesi_cpu_test
+ 1527  clear
+ 1528  docker run -p 8080:8080 --cpu-quota=50000 -d --name icesi_cpu_test icesi_cpu_test:0.2.0
+ 1529  top
+ 1530  clear
+ 1531  docker run -p 8080:8080 -d --name icesi_cpu_test icesi_cpu_test:0.2.0
+ 1532  docker rm -f icesi_cpu_test
+ 1533  docker run -p 8080:8080 -d --name icesi_cpu_test icesi_cpu_test:0.2.0
+ 1534  clear
+ 1535  top
+ 1536  curl 127.0.0.1:8080/greedy
+ 1537  top
+ 1538  clear
+ 1539  docker rm -f icesi_cpu_test
+ 1540  clar
+ 1541  clear
+ 1542  clear 
+ 1543  cd ..
+ 1544  mkdir 01_compose
+ 1545  cd 01_compose
+ 1546  mkdir 00_intro
+ 1547  ls
+ 1548  cd 00_intro
+ 1549  wget https://raw.githubusercontent.com/ICESI/ds-docker/master/08_docker_compose/00_intro/app.py
+ 1550  wget https://raw.githubusercontent.com/ICESI/ds-docker/master/08_docker_compose/00_intro/docker-compose.yml
+ 1551  vi docker-compose.yml
+ 1552  docker-compose -v
+ 1553  wget https://raw.githubusercontent.com/ICESI/ds-docker/master/08_docker_compose/00_intro/Dockerfile
+ 1554  docker images
+ 1555  vi Dockerfile
+ 1556  wget https://raw.githubusercontent.com/ICESI/ds-docker/master/08_docker_compose/00_intro/requirements.txt
+ 1557  vi Dockerfile
+ 1558  vi docker-compose.yml
+ 1559  docker-compose -v
+ 1560  docker-compose -h
+ 1561  docker-compose up
+ 1562  ls
+ 1563  cd ..
+ 1564  cd 01_compose
+ 1565  cd 00_intro
+ 1566  ls
+ 1567  docker-compose scale redis=1
+ 1568  curl 127.0.0.1:5000
+ 1569  clear
+ 1570  git add -A
+ 1571  git commit -m "Updating repo"
+ 1572  ggp
+ 1573  clear
+ 1574  ls
+ 1575  cd ..
+ 1576  clear
+ 1577  mkdir images
+ 1578  cd images
+ 1579  git add -A
+ 1580  git commit -m "Updating repo"
+ 1581  ggp
+ 1582  clear
+ 1583  ls
+ 1584  git clone https://github.com/abc1196/sd2018b-exam3.git
+ 1585  cd sd2018b-exam3
+ 1586  gco abueno/exam3
+ 1587  clear
+ 1588  ls
+ 1589  clear
+ 1590  cd ..
+ 1591  ls
+ 1592  cd ..
+ 1593  cd home
+ 1594  ls
+ 1595  cd ~
+ 1596  ls
+ 1597  cd Documents
+ 1598  clear
+ 1599  ls
+ 1600  cd DistributedSystems
+ 1601  cd zehcort
+ 1602  ls
+ 1603  cd Exams
+ 1604  clear
+ 1605  ls
+ 1606  cd sd2018b-exam3
+ 1607  ls
+ 1608  git add -A
+ 1609  git commit -m "Editing some files"
+ 1610  ggp
+ 1611  ls
+ 1612  git clone https://github.com/zehcort/sd2018b-exam2.git
+ 1613  cd 2
+ 1614  cd sd2018b-exam2
+ 1615  ls
+ 1616  cd Documents/DistributedSystems/zehcort/Exams
+ 1617  ls
+ 1618  git clone https://github.com/zehcort/sd2018b-exam2.git
+ 1619  cd sd2018b-exam2
+ 1620  ls
+ 1621  clear
+ 1622  gco ltrochez/exam2
+ 1623  clear
+ 1624  docker -v
+ 1625  ls
+ 1626  nano docker-compose.yml
+ 1627  atom .
+ 1628  ls
+ 1629  docker-compose up
+ 1630  ls
+ 1631  mkdir ci-server
+ 1632  docker-compose up
+ 1633  ls
+ 1634  rm -r ci-server
+ 1635  clear
+ 1636  ls
+ 1637  mkdir ci_server
+ 1638  ls
+ 1639  docker-compose up
+ 1640  ls
+ 1641  cd ci_server
+ 1642  ls
+ 1643  touch Dockerfile
+ 1644  ls
+ 1645  cd ..
+ 1646  ls
+ 1647  clear
+ 1648  cd ci_server
+ 1649  ls
+ 1650  mkdir endpoint
+ 1651  ls
+ 1652  cd endpoint
+ 1653  mkdir gm_analytics
+ 1654  cd ..
+ 1655  ls
+ 1656  clear
+ 1657  docker-compose up
+ 1658  cd ..
+ 1659  cd sd2018b-exam2
+ 1660  clear
+ 1661  ls
+ 1662  clear
+ 1663  docker run -d \ 
+ 1664  docker run -d
+ 1665  docker-compose up
+ 1666  ls
+ 1667  docker ps -a
+ 1668  docker rm -f swan-registry.icesi.edu.co
+ 1669  ls
+ 1670  docker ps -a
+ 1671  clear
+ 1672  docker-compose up
+ 1673  docker ps -a
+ 1674  clear
+ 1675  docker rm -f registry
+ 1676  docker ps -a
+ 1677  clear
+ 1678  docker images
+ 1679  docker push registry:2
+ 1680  sudo docker push registry:2
+ 1681  docker-compose up -d
+ 1682  docker rm -f registry
+ 1683  clear
+ 1684  gaa
+ 1685  git add -A
+ 1686  git commit -m "Registry done"
+ 1687  ggp
+ 1688  git clone https://github.com/zehcort/sd2018b-exam2.git
+ 1689  clear
+ 1690  cd sd2018b-exam2
+ 1691  clear
+ 1692  gco ltrochez/exam2
+ 1693  clear
+ 1694  atom .
+ 1695  docker-compose up
+ 1696  clear
+ 1697  gco ltrochez/develop
+ 1698  atom .
+ 1699  gco ltrochez/develop
+ 1700  gaa
+ 1701  git commit -m "Changing to Flask"
+ 1702  ggp
+ 1703  gco ltrochez/develop
+ 1704  clear
+ 1705  atom .
+ 1706  git clone https://github.com/MasterKr123/sd2018b-project.git
+ 1707  cd sd2018b-project
+ 1708  clear
+ 1709  git checkout develop
+ 1710  clear
+ 1711  docker version on
+ 1712  docker version
+ 1713  clear
+ 1714  sudo su
+ 1715  kubectl get nodes -o wide
+ 1716  clear
+ 1717  ifconfig
+ 1718  git clone https://github.com/zehcort/sd2018b-exam2.git
+ 1719  gco ltrochez/exam2
+ 1720  clear
+ 1721  docker-compose --build
+ 1722  docker-compose up --build
+ 1723  clear
+ 1724  docker-compose up --build
+ 1725  clear
+ 1726  docker-compose up --build
+ 1727  cd ci_server
+ 1728  ls
+ 1729  nano Dockerfile
+ 1730  cd ..
+ 1731  gaa
+ 1732  git commit -m "Updating repo"
+ 1733  ggp
+ 1734  clear
+ 1735  ls
+ 1736  clear
+ 1737  docker-compose up --build
+ 1738  atom .
+ 1739  docker-compose up --build
+ 1740  atom .
+ 1741  docker-compose up --build
+ 1742  docker ps
+ 1743  clear
+ 1744  gaa
+ 1745  git commit -m "Uploading screenshots
+ 1746  git commit -m "Uploading screenshots"
+ 1747  ggp
+ 1748  clear
+ 1749  git clone https://github.com/zehcort/sd2018b-exam2.git
+ 1750  cd sd2018b-exam2
+ 1751  clear
+ 1752  gco ltrochez/
+ 1753  gco ltrochez/exam2 
+ 1754  clear
+ 1755  ls
+ 1756  atom .
+ 1757  clear
+ 1758  gaa
+ 1759  git commit -m "Starting document"
+ 1760  ggp
+ 1761  clear
+ 1762  gaa
+ 1763  git commit -m "Final commit"
+ 1764  ggp
+ 1765  gaa
+ 1766  git commit -m "Final commit"
+ 1767  ggp
+ 1768  sudo su
+ 1769  nmap -sP 192.168.130.0/24
+ 1770  ssh 192.168.130.67
+ 1771  ssh distribuidos@192.168.130.67 
+ 1772  ssh 192.168.130.167
+ 1773  ssh 192.168.130.158
+ 1774  ssh 192.168.130.157
+ 1775  ssh 192.168.130.159
+ 1776  ssh 192.168.130.160
+ 1777  ssh admin1@192.168.130.160
+ 1778  ssh distribuidos@192.168.130.160
+ 1779  tmux a -t Distribuidos
+ 1780  tmux new-session -s Distribuidos
+ 1781  ip a
+ 1782  exit
+ 1783  whoami
+ 1784  ip a
+ 1785  tmux
+ 1786  exit
+ 1787  shh version
+ 1788  ls
+ 1789  cd Desktop
+ 1790  ls
+ 1791  cd ..
+ 1792  whoami
+ 1793  cd Documents
+ 1794  mkdir A00328044
+ 1795  ls
+ 1796  cd A00328044
+ 1797  ls
+ 1798  ip a
+ 1799  cd..
+ 1800  cd ..
+ 1801  ls
+ 1802  cd ..
+ 1803  su distribuidos
+ 1804  tmux
+ 1805  exit
+ 1806  cd ..
+ 1807  tmux new-sesion -s Distribuidos
+ 1808  sudo apt-get install tmux
+ 1809  tmux new-sesion -s Distribuidos
+ 1810  tmux
+ 1811  tmux new-sesion -s Distribuidos
+ 1812  exit
+ 1813  tmux new-sesion -s Distribuidos
+ 1814  tmux new-sesion -s distri
+ 1815  sudo apt-get update
+ 1816  tmux new-session -s compartiendo
+ 1817  tmux list-sessions
+ 1818  tmux attach -t compartiendo
+ 1819  exit
+ 1820  tmux list sessions
+ 1821  tmux list-sessions
+ 1822  tmux new-session -s compartir
+ 1823  tmux list-sessions
+ 1824  tmux attach -t compartir
+ 1825  exit
+ 1826  tmux list-sessions
+ 1827  tmux new-session -s compartir
+ 1828  tmux attach -t compartir
+ 1829  ls
+ 1830  cd Documents
+ 1831  ls
+ 1832  cd A00328044
+ 1833  ls
+ 1834  git clone "https://github.com/santyfajardo/sd2019a-workshop0"
+ 1835  ls
+ 1836  git branch initial
+ 1837  cd sd2019a-workshop0
+ 1838  git branch initial
+ 1839  git checkout -b initial
+ 1840  git checkout initial
+ 1841  gaa
+ 1842  git commit -m "Add branch initial"
+ 1843  git push
+ 1844  vagrant box add centos_7 ~/Desktop/centos1706_v0.2.0
+ 1845  ls
+ 1846  cagrant init
+ 1847  vagrant init
+ 1848  vi Vagrantfile
+ 1849  vagrant up
+ 1850  vagrant destroy
+ 1851  gaa
+ 1852  ls
+ 1853  gc -m "Add vagrant file"
+ 1854  git push
+ 1855  git push origin initial
+ 1856  ls
+ 1857  exit
+ 1858  ip a
+ 1859  tmux new-session -s distribuidos
+ 1860  tmux list-sessions
+ 1861  tmux attach -t distribuidos
+ 1862  ls
+ 1863  cd Documents
+ 1864  ls
+ 1865  cd A00328044
+ 1866  ls
+ 1867  cd sd2019a-workshop0
+ 1868  git branch -m initial santyfajardo/initial_work
+ 1869  git branch
+ 1870  git status
+ 1871  git add --all
+ 1872  git commit -m "Change branch name"
+ 1873  git push
+ 1874  git push origin santyfajardo/initial_work
+ 1875  git branch
+ 1876  git branch -d initial
+ 1877  git push
+ 1878  git pull
+ 1879  git pull santyfajardo/initial_work
+ 1880  git branch
+ 1881  ls
+ 1882  vi Vagrantfile
+ 1883  ip a
+ 1884  vi Vagrantfile
+ 1885  exit
+ 1886  tmux attach -t distribuidos
+ 1887  vi Vagrantfile
+ 1888  vagrant up
+ 1889  vagrant destroy
+ 1890  vagrant up --provision
+ 1891  vagrant ssh
+ 1892  vi Vagrantfile
+ 1893  ls
+ 1894  vi script.sh
+ 1895  vi Vagrantfile
+ 1896  vagrant up --provision
+ 1897  vi Vagrantfile
+ 1898  vi script.sh
+ 1899  ping 192.168.131.6
+ 1900  ip addr add 192.168.131.106/24 dev enp5s0:0
+ 1901  sudo ip addr add 192.168.131.106/24 dev enp5s0:0
+ 1902  ping 192.168.131.106
+ 1903  ping 192.168.131.6
+ 1904  gaa
+ 1905  gc -m "Update VagrantFile"
+ 1906  git push
+ 1907  git push origin santyfajardo/initial_work
+ 1908  ls
+ 1909  whoami
+ 1910  vagrant status
+ 1911  vagrant ssh
+ 1912  ls
+ 1913  gaa
+ 1914  gc -m "Update resources"
+ 1915  git push origin santyfajardo/initial_work
+ 1916  git rm-rf .vagrant
+ 1917  git --help
+ 1918  git rm -rf .vagrant
+ 1919  gaa
+ 1920  gc -m "Eliminate .vagrant"
+ 1921  git push origin santyfajardo/initial_work
+ 1922  vagrant status
+ 1923  vagrant up
+ 1924  vagrant ssh
+ 1925  sudo shutdown -h now
+ 1926  tmux new-session -s compartir
+ 1927  ip a
+ 1928  tmux attach -t compartir
+ 1929  clear
+ 1930  tmux --help
+ 1931  tmux -d 0
+ 1932  whoami
+ 1933  ls
+ 1934  clear
+ 1935  exit
+ 1936  ls
+ 1937  exit
+ 1938  ls
+ 1939  cd Do
+ 1940  cd Documents
+ 1941  ls
+ 1942  cd A00328044
+ 1943  ls
+ 1944  cd sd2019a-workshop0
+ 1945  ls
+ 1946  tmux
+ 1947  exit
+ 1948  tmux new-sessions -s distribuidos
+ 1949  tmux new-session -s distribuidos
+ 1950  history
+ 1951  clear
+ 1952  ls
+ 1953  gaa
+ 1954  gc -m "Update"
+ 1955  git push origin santyfajardo/initial_work
+ 1956  ls
+ 1957  git rm -rf .vagrant
+ 1958  gaa
+ 1959  gc -m "Update"
+ 1960  git push origin santyfajardo/initial_work
+ 1961  cleear
+ 1962  clear
+ 1963  history
+ 1964  clear
+ 1965  cd ..
+ 1966  git clone https://github.com/santyfajardo/sd2019a-workshop1
+ 1967  ls
+ 1968  cd sd2019a-workshop1
+ 1969  gco -b santyfajardo/cookbooks
+ 1970  cp ../sd2019a-workshop0/Vagrantfile .
+ 1971  ls
+ 1972  cat Vagrantfile
+ 1973  clear
+ 1974  vi Vagrantfile
+ 1975  vagran up
+ 1976  vagrant up
+ 1977  vagrant ssh
+ 1978  cd ..
+ 1979  cd sd2019a-workshop1
+ 1980  http://192.168.130.2/chefdk_3.2.30-1_amd64.deb
+ 1981  wget http://192.168.130.2/chefdk_3.2.30-1_amd64.deb
+ 1982  dpkg -i chefdk_3.2.30-1_amd64.deb
+ 1983  sudo dpkg -i chefdk_3.2.30-1_amd64.deb
+ 1984  mkdir cookbooks
+ 1985  cd cookbooks
+ 1986  cd ..
+ 1987  chef generate cookbook cookbooks/git_cookbook
+ 1988  tree
+ 1989  vi cookbooks/git_cookbook/recipes/default.rb
+ 1990  tree
+ 1991  vi .kitchen.yml
+ 1992  cat .kitchen.yml
+ 1993  vi .kitchen.yml
+ 1994  clear
+ 1995  ls
+ 1996  vi .kitchen.yml
+ 1997  kitchen list
+ 1998  vi .kitchen.yml
+ 1999  cd cookbooks
+ 2000  ls
+ 2001  cd git_cookbook
+ 2002  ls
+ 2003  cd test
+ 2004  ls
+ 2005  cd integration
+ 2006  ls
+ 2007  cd default
+ 2008  ls
+ 2009  vi default_test.rb
+ 2010  clear
+ 2011  cd ..
+ 2012  kitchen
+ 2013  kitchen list
+ 2014  kitchen diagnose --no-instances --loader
+ 2015  cd cookbooks
+ 2016  cd git_cookbook
+ 2017  ls
+ 2018  cd ..
+ 2019  ls
+ 2020  cd git_cookbook
+ 2021  ls
+ 2022  cd ..
+ 2023  cd git_cookbook
+ 2024  vi .kitchen.yml
+ 2025  cd ..
+ 2026  ls
+ 2027  cd git_cookbook
+ 2028  ls
+ 2029  vi .kitchen.yml
+ 2030  rm .kitchen.yml
+ 2031  ls
+ 2032  cd ..
+ 2033  ls
+ 2034  cd ..
+ 2035  ls
+ 2036  ls -a
+ 2037  mv .kitchen.yml cookbooks/git_cookbook
+ 2038  cd cookbooks/git_cookbook
+ 2039  ls
+ 2040  ls -a
+ 2041  vi .kitchen.yml
+ 2042  wget https://raw.githubusercontent.com/ICESI/ds-vagrant/master/centos7/07_kitchen/.kitchen.yml
+ 2043  ls
+ 2044  vi .kitchen.yml
+ 2045  wget https://raw.githubusercontent.com/ICESI/ds-vagrant/master/centos7/07_kitchen/.kitchen.yml
+ 2046  ls
+ 2047  ls -a
+ 2048  vi .kitchen.yml
+ 2049  vi .kitchen.yml.1
+ 2050  rm .kitchen.yml
+ 2051  mv .kitchen.yml.1 .kitchen.yml
+ 2052  ls
+ 2053  ls -a
+ 2054  vi .kitchen.yml
+ 2055  rm .kitchen.yml.2
+ 2056  ls
+ 2057  ls -a
+ 2058  vi .kitchen.yml
+ 2059  vi test/integration/default/default_test.rb
+ 2060  ls
+ 2061  ls -a
+ 2062  kitchen list
+ 2063  cd ..
+ 2064  kitchen list
+ 2065  ls -a
+ 2066  cd cookbooks
+ 2067  ls -a
+ 2068  cd git_cookbook
+ 2069  ls
+ 2070  ls -a
+ 2071  rm .kitchen
+ 2072  rm .kitchen.yml
+ 2073  wget https://raw.githubusercontent.com/ICESI/ds-vagrant/master/centos7/07_kitchen/.kitchen.yml
+ 2074  kitchen list
+ 2075  tree
+ 2076  cd ..
+ 2077  ls -a
+ 2078  cd git_cookbook
+ 2079  ls -a
+ 2080  kitchen create default-centos-7
+ 2081  kitchen list
+ 2082  kitchen create default-centos-7
+ 2083  ls -a
+ 2084  vi .kitchen.yml
+ 2085  kitchen create default-centos-7
+ 2086  vi .kitchen.yml
+ 2087  kitchen create default-centos-7
+ 2088  ls
+ 2089  ls -a
+ 2090  vi .kitchen.yml
+ 2091  kitchen create default-centos-7
+ 2092  vi .kitchen.yml
+ 2093  kitchen verify default-centos-7
+ 2094  vi .kitchen.yml
+ 2095  kitchen verify default-centos-7
+ 2096  ls
+ 2097  cd test
+ 2098  ls
+ 2099  cd integration
+ 2100  ls
+ 2101  cd default
+ 2102  ls
+ 2103  cat default_test.rb
+ 2104  cd ..
+ 2105  cd test
+ 2106  cd integration/default
+ 2107  ls -a
+ 2108  cd ..
+ 2109  cd git_cookbook
+ 2110  kitchen converge default-centos-7
+ 2111  kitchen verify default-centos-7
+ 2112  kitchen test
+ 2113  kitchen destroy
+ 2114  gaa
+ 2115  gc -m "Update"
+ 2116  git push origin santyfajardo/cookbooks
+ 2117  cd ..
+ 2118  exit
+ 2119  gaa
+ 2120  gc -m "Update"
+ 2121  ls -a
+ 2122  git push origin santyfajardo/cookbooks
+ 2123  ls
+ 2124  rm chefdk_3.2.30-1_amd64.deb
+ 2125  ls
+ 2126  gaa
+ 2127  gc -m "Update"
+ 2128  git push origin santyfajardo/cookbooks
+ 2129  rm chefdk_3.2.30-1_amd64.deb
+ 2130  ls -a
+ 2131  rm -rf .vagrant
+ 2132  rm -rf .git
+ 2133  git clone https://github.com/santyfajardo/sd2019a-workshop1
+ 2134  git branch
+ 2135  lls
+ 2136  ls
+ 2137  rm -rf sd2019a-workshop1
+ 2138  cd ..
+ 2139  git clone https://github.com/santyfajardo/sd2019a-workshop1
+ 2140  cd sd2019a-workshop
+ 2141  ls
+ 2142  cd sd2019a-workshop1
+ 2143  ls
+ 2144  ls -a
+ 2145  ls
+ 2146  cd ..
+ 2147  ls
+ 2148  cd sd2019a-workshop
+ 2149  cd sd2019a-workshop1
+ 2150  cd ..
+ 2151  ls
+ 2152  mv -r sd2019a-workshop sd
+ 2153  mv -Rf sd2019a-workshop sd
+ 2154  mv sd2019a-workshop sd
+ 2155  mv sd2019a-workshop1 sd
+ 2156  ls
+ 2157  git clone https://github.com/santyfajardo/sd2019a-workshop1
+ 2158  ls
+ 2159  cd sd
+ 2160  cd ..
+ 2161  cd sd2019a-workshop1
+ 2162  cd ..
+ 2163  cd sd
+ 2164  ls
+ 2165  cd ..
+ 2166  mv sd/cookbooks sd2019a-workshop1
+ 2167  mv sd/README.md sd2019a-workshop1
+ 2168  mv sd/Vagrantfile sd2019a-workshop1
+ 2169  cd sd
+ 2170  ls
+ 2171  cd ..
+ 2172  rm -Rf sd
+ 2173  ls
+ 2174  cd sd2019a-workshop
+ 2175  cd sd2019a-workshop1
+ 2176  ls
+ 2177  git branch -b santyfajardo/cookbook
+ 2178  git checkout -b santyfajardo/cookbook
+ 2179  git branch
+ 2180  git add .
+ 2181  git commit -m "add files"
+ 2182  git push origin santyfajardo/cookbook
+ 2183  exit
+ 2184  sudo shutdown -h now
+ 2185  ls
+ 2186  cd A00328044
+ 2187  ls
+ 2188  history
+ 2189  tmux
+ 2190  exit
+ 2191  cd ..
+ 2192  ls
+ 2193  cd Desktop
+ 2194  history > comandos.txt
+ 2195  ls
+ 2196  exit
+ 2197  ls
+ 2198  cd Desktop
+ 2199  ls
+ 2200  cat comandos.txt
+ 2201  tmux
+ 2202  history
+ 2203  exit
+ 2204  tmux new-session -s Distribuidos
+ 2205  cd ..
+ 2206  cd Doc
+ 2207  cd Documents
+ 2208  ls
+ 2209  cd A00328044
+ 2210  ls
+ 2211  git clone https://github.com/santyfajardo/sd2019a-workshop2.git
+ 2212  ls
+ 2213  cd sd2019a-workshop2
+ 2214  git checkout -b santyfajardo/workshop2
+ 2215  ls
+ 2216  clear
+ 2217  vi VagrantFile
+ 2218  cat VagrantFile
+ 2219  mkdir -p cookbooks/httpd/{recipes,files/default,templates/default}
+ 2220  ls
+ 2221  clear
+ 2222  tree
+ 2223  vi VagrantFile
+ 2224  clear
+ 2225  vi cookbooks/httpd/recipes/default.rb
+ 2226  vi cookbooks/httpd/recipes/httpd_install.rb
+ 2227  vi cookbooks/httpd/recipes/httpd_config.rb
+ 2228  tree
+ 2229  ls
+ 2230  tree
+ 2231  vagrant up
+ 2232  sudo vagrant up
+ 2233  vagrant init
+ 2234  vagrant up
+ 2235  vagrant init
+ 2236  ls
+ 2237  cat Vagrantfile
+ 2238  ls
+ 2239  cat VagrantFile
+ 2240  ls
+ 2241  rm -rf Vagrantfile
+ 2242  ls
+ 2243  mv VagrantFile Vagranfile
+ 2244  ls
+ 2245  vagrant init
+ 2246  ls
+ 2247  cat Vagranfile
+ 2248  rm -rf Vagrantfile
+ 2249  mv Vagranfile Vagrantfile
+ 2250  ls
+ 2251  vagrant up
+ 2252  tree
+ 2253  cat Vagrantfile
+ 2254  vagrant box list
+ 2255  cat Vagrantfile
+ 2256  vi Vagrantfile
+ 2257  vagrant up
+ 2258  ls
+ 2259  tmux a -t distribuidos
+ 2260  tmux a -t Distribuidos
+ 2261  ssh distribuidos@192.168.130.165
+ 2262  ls
+ 2263  tree
+ 2264  ls
+ 2265  vi cookbooks/httpd/templates/default/index.erb
+ 2266  tree
+ 2267  vi cookbooks/httpd/templates/default/index.erb
+ 2268  vi cookbooks/httpd/recipes/httpd_copy_files.rb
+ 2269  vi cookbooks/httpd/recipes/default.rb
+ 2270  vagrant up --provision
+ 2271  http 127.0.0.1:8080\nhttp 
+ 2272  http 127.0.0.1:8080
+ 2273  apt-get insta
+ 2274  sudo apt-get install httpie
+ 2275  http 127.0.0.1:8080
+ 2276  vi cookbooks/httpd/recipes/httpd_copy_files.rb
+ 2277  mkdir  cookbooks/httpd/attributes
+ 2278  vi cookbooks/httpd/attributes/default.rb
+ 2279  vi cookbooks/httpd/recipes/httpd_copy_files.rb
+ 2280  vi cookbooks/httpd/attributes/default.rb
+ 2281  vagrant up --provision
+ 2282  http 127.0.0.1:8080
+ 2283  gaa
+ 2284  gc -m "Updates files"
+ 2285  git push origin santyfajardo/workshop2
+ 2286  ls -a
+ 2287  rm -rf .vagrant
+ 2288  gaa
+ 2289  gc -m "Delete .vagrant"
+ 2290  git push origin santyfajardo/workshop2
+ 2291  cd ..
+ 2292  sudo shutdown -h now
+ 2293  ip a
+ 2294  ssh
+ 2295  ssh -help
+ 2296  tmux new-session -s distribuidos
+ 2297  ls
+ 2298  cd Documents
+ 2299  ls
+ 2300  cd A00328044
+ 2301  ls
+ 2302  sudo reboot
+ 2303  cd Documents
+ 2304  cd A00328044
+ 2305  ls
+ 2306  cd sd2019a-workshop2
+ 2307  ls
+ 2308  cd cookbooks
+ 2309  cd httpd
+ 2310  ls
+ 2311  cd ..
+ 2312  ls
+ 2313  cd ..
+ 2314  vi cookbooks/httpd/recipes/httpd_copy_files.rb
+ 2315  cd cookbooks/httpd/files/default
+ 2316  ls
+ 2317  wget www.icesi.edu.co
+ 2318  ls
+ 2319  cat index.html
+ 2320  pwd
+ 2321  vi cookbooks/httpd/recipes/httpd_copy_files.rb
+ 2322  cd ..
+ 2323  ls
+ 2324  cd recipes
+ 2325  ls
+ 2326  cat httpd_copy_files.rb
+ 2327  cd ..
+ 2328  vagrant up --provision
+ 2329  http 127.0.0.1:8080/icesi.html
+ 2330  ip a
+ 2331  clear
+ 2332  vi cookbooks/httpd/recipes/httpd_copy_files.rb
+ 2333  gaa
+ 2334  gc -m "Updates httpd_copy_files"
+ 2335  git push origin santyfajardo/workshop2
+ 2336  ls -a
+ 2337  rm -rf .vagrant
+ 2338  gaa
+ 2339  gc -m "Delete .vagrant"
+ 2340  git push origin santyfajardo/workshop2
+ 2341  ls -a
+ 2342  cd ..
+ 2343  git clone https://github.com/ICESI/ds-vagrant.git
+ 2344  ls
+ 2345  ls -l
+ 2346  cd ds-vagrant
+ 2347  tree
+ 2348  ls
+ 2349  cd centos
+ 2350  cd centos7
+ 2351  ls
+ 2352  cd 05_chef_load_balancer_example
+ 2353  ls
+ 2354  cat Vagrantfile
+ 2355  vi Vagrantfile
+ 2356  vi cookbooks/haproxy/templates/default/haproxy.erb
+ 2357  vagrant up --provision
+ 2358  vagrant destroy
+ 2359  cd ..
+ 2360  cd ds-vagrant
+ 2361  cd centos7/05_chef_load_balancer_example/
+ 2362  ls
+ 2363  vi Vagrantfile
+ 2364  ls
+ 2365  vagrant up --provision
+ 2366  http 192.168.56.102
+ 2367  http 192.168.56.103
+ 2368  http 192.168.56.101
+ 2369  vagrant destroy
+ 2370  sudo shutdown -h now
+ 2371  ls
+ 2372  cd A00328044
+ 2373  ls
+ 2374  cd ds-vagrant
+ 2375  ls
+ 2376  cd centos
+ 2377  cd centos7
+ 2378  ls
+ 2379  cd 05_chef_load_balancer_example
+ 2380  ls
+ 2381  cat Vagrantfile
+ 2382  sudo apt-get install ansible
+ 2383  cd ..
+ 2384  ls
+ 2385  cd centos7
+ 2386  cd ..
+ 2387  ls
+ 2388  cd A00328044
+ 2389  ls
+ 2390  cd Exam1-Loadbalancer
+ 2391  ls
+ 2392  rm -rf cookbooks
+ 2393  ls
+ 2394  ls -a
+ 2395  cat Vagrantfile
+ 2396  nano Vagrantfile
+ 2397  cat Vagrantfile
+ 2398  nano Vagrantfile
+ 2399  ls
+ 2400  ls -a
+ 2401  cd .vagrant
+ 2402  ls
+ 2403  cd machines
+ 2404  ls
+ 2405  cd lb_server
+ 2406  ls
+ 2407  cd virtualbox
+ 2408  ls
+ 2409  cd ..
+ 2410  ls
+ 2411  cd ..
+ 2412  git clone https://github.com/santyfajardo/sd2019a-exam1.git
+ 2413  ls
+ 2414  cd sd2019a-exam1
+ 2415  git checkout SantiagoBranch
+ 2416  cd ..
+ 2417  mv Exam1-Loadbalancer/Vagrantfile sd2019a-exam1
+ 2418  ls
+ 2419  cd sd2019a-
+ 2420  cd sd2019a-exam1
+ 2421  ls
+ 2422  gaa
+ 2423  gc -m "Add VagrantFile 1.0"
+ 2424  git push origin SantiagoBranch
+ 2425  cat Vagrantfile
+ 2426  nano Vagrantfile
+ 2427  gaa
+ 2428  gc -m "Update VagrantFile 1.1"
+ 2429  git push origin SantiagoBranch
+ 2430  ls
+ 2431  cat Vagrantfile
+ 2432  ls
+ 2433  mkdir A00315328
+ 2434  LS
+ 2435  ls
+ 2436  cd A00315238
+ 2437  cd A00315328
+ 2438  ls
+ 2439  sudo apt-get install tig
+ 2440  tig
+ 2441  git config credential.username santyfajardo
+ 2442  tig
+ 2443  git config user.name santyfajardo
+ 2444  git config user.email santiago_fajardo96@hotmail.com
+ 2445  ls
+ 2446  git config user
+ 2447  git config --list
+ 2448  git config --global user.name santyfajardo
+ 2449  git config --global user.email santiago_fajardo96@hotmail.com
+ 2450  git config --list
+ 2451  git config -e
+ 2452  ls
+ 2453  alias
+ 2454  tig
+ 2455  ls
+ 2456  vi borrame.txt
+ 2457  gaa
+ 2458  gc -m "Borrar"
+ 2459  git push origin SantiagoBranch
+ 2460  tig
+ 2461  vi borrame.txt
+ 2462  gaa
+ 2463  gc -m "Update borrame"
+ 2464  gp origin SantiagoBranch
+ 2465  tig
+ 2466  ls
+ 2467  tig
+ 2468  cd ..
+ 2469  ls
+ 2470  cd sd2019a-
+ 2471  cd sd2019a-exam1
+ 2472  cd ..
+ 2473  ls 
+ 2474  rm -rf sd2019a-exam1
+ 2475  ls
+ 2476  git clone https://github.com/santyfajardo/sd2019a-exam1.git
+ 2477  ls
+ 2478  cd sd2019a-exam1
+ 2479  git checkout SantiagoBranch
+ 2480  ls
+ 2481  cd ..
+ 2482  ls
+ 2483  cd ds-vagrant
+ 2484  ls
+ 2485  cd centos7
+ 2486  ls
+ 2487  cd 05_chef_load_balancer_example
+ 2488  ls
+ 2489  cd ..
+ 2490  ls
+ 2491  cd sd2019a-exam1
+ 2492  ls
+ 2493  cd ..
+ 2494  mv ds-vagrant/centos7/05_chef_load_balancer_example/Vagrantfile sd2019a-exam1
+ 2495  ls
+ 2496  cd sd2019a-exam1
+ 2497  ls
+ 2498  nano Vagrantfile
+ 2499  gaa
+ 2500  gcmsg "Add VagrantFile 1.0"
+ 2501  gp origin SantiagoBranch
+ 2502  tig
+ 2503  ls
+ 2504  cat Vagrantfile
+ 2505  sudo shutdown -h now
+ 2506  sl
+ 2507  ls
+ 2508  cd Documents
+ 2509  ls
+ 2510  cd A00328044
+ 2511  ls
+ 2512  cd sd2019a-exam1
+ 2513  ls
+ 2514  vi db_playbook.yml
+ 2515  ls
+ 2516  gaa
+ 2517  gcmsg "Create playbook for Postgresql"
+ 2518  ls
+ 2519  mkdir roles
+ 2520  cd roles
+ 2521  mkdir creatdb
+ 2522  mkdir createdb
+ 2523  rm -rf creatdb
+ 2524  cd createdb
+ 2525  mkdir handlers
+ 2526  mkdir tasks
+ 2527  mkdir vars
+ 2528  cd ..
+ 2529  tree
+ 2530  cat db_playbook.yml
+ 2531  vi db_playbook.yml
+ 2532  gaa
+ 2533  gcmsg "Update db playbook"
+ 2534  ls
+ 2535  cd roles
+ 2536  ls
+ 2537  cd createdb
+ 2538  cd ..
+ 2539  ls
+ 2540  vi db_playbook.yml
+ 2541  gaa
+ 2542  gcsm "Update db playbook vars file"
+ 2543  cd roles
+ 2544  cd createdb
+ 2545  ls
+ 2546  cd handlers
+ 2547  vi main.yml
+ 2548  gaa
+ 2549  gcsm "Add handlers main"
+ 2550  cd ..
+ 2551  cd vars
+ 2552  vi main.yml
+ 2553  gaa
+ 2554  gcmsg "Add vars main"
+ 2555  tig
+ 2556  cd ..
+ 2557  ls
+ 2558  cd tasks
+ 2559  ls
+ 2560  vi main.yml
+ 2561  gaa
+ 2562  gc -m "Add task main"
+ 2563  ls
+ 2564  cd ..
+ 2565  tree
+ 2566  push
+ 2567  ls
+ 2568  tig
+ 2569  push origin SantiagoBranch
+ 2570  ansible-playbook db_playbook.yml
+ 2571  vi db_playbook.yml
+ 2572  ansible-playbook db_playbook.yml
+ 2573  ls
+ 2574  vi db_playbook.yml
+ 2575  ansible-playbook db_playbook.yml
+ 2576  vi db_playbook.yml
+ 2577  gaa
+ 2578  gcmsg "Update db playbook"
+ 2579  git push
+ 2580  git push origin SantiagoBranch
+ 2581  vi Vagrantfile
+ 2582  gaa
+ 2583  gcmsg "Update VagrantFile"
+ 2584  git push origin SantiagoBranch
+ 2585  git branch
+ 2586  git status
+ 2587  gb -a
+ 2588  ansible-playbook db_playbook.yml
+ 2589  vi db_playbook.yml
+ 2590  vi roles/createdb/tasks/main.yml
+ 2591  gaa
+ 2592  gcmsg "Update task main"
+ 2593  git push origin SantiagoBranch
+ 2594  ansible-playbook db_playbook.yml
+ 2595  cat db_playbook.yml
+ 2596  ls
+ 2597  cd Documents
+ 2598  ls
+ 2599  cd A00328044
+ 2600  ls
+ 2601  cd sd2019a-exam1
+ 2602  ls
+ 2603  cd Documents
+ 2604  ls
+ 2605  cd A00328044
+ 2606  ls
+ 2607  git clone https://github.com/santyfajardo/sd2019a-workshop4.git
+ 2608  ls 
+ 2609  cd sd2019a-workshop4
+ 2610  git checkout -b santyfajardo/InitialWork
+ 2611  yum install -y wget unzip
+ 2612  vi VagrantFile
+ 2613  vagrant up
+ 2614  vagrant init
+ 2615  ls
+ 2616  rm -rf Vagrantfile
+ 2617  ls
+ 2618  mv VagrantFile Vagranfile
+ 2619  ls
+ 2620  vagrant up
+ 2621  vagrant init
+ 2622  ls
+ 2623  rm -rf Vagranfile
+ 2624  rm -rf Vagrantfile
+ 2625  vagran init
+ 2626  vagrant init
+ 2627  ls
+ 2628  vi Vagrantfile
+ 2629  rm -rf Vagrantfile
+ 2630  ls
+ 2631  cd ..
+ 2632  git clone https://github.com/ICESI/ds-discovery-service.git
+ 2633  ls
+ 2634  cd sd2019a-workshop4
+ 2635  cp ../ds-discovery-service/hashicorp/Vagrantfile .
+ 2636  ls
+ 2637  vi Vagrantfile
+ 2638  vagrant up
+ 2639  vagrant status
+ 2640  vi Vagrantfile
+ 2641  vagrant ssh discovery_service
+ 2642  vagrant box list
+ 2643  vagrant ssh microservice_a
+ 2644  vagrant ssh Microservices
+ 2645  # curl http://192.168.56.102:8500/v1/catalog/service/microservice_a
+ 2646  ls
+ 2647  cd Documents
+ 2648  ls
+ 2649  cd A00328044
+ 2650  ls
+ 2651  cd sd2019a-workshop4
+ 2652  ls
+ 2653  gaa
+ 2654  gcmsg "Add Vagranfile"
+ 2655  rm -rf .vagrant
+ 2656  gaa
+ 2657  gcmsg "Update"
+ 2658  git push origin santyfajardo/InitialWork
+ 2659  sudo shutdown -h now
+ 2660  ls
+ 2661  cd Documents
+ 2662  ls
+ 2663  cd A00328044
+ 2664  cd ..
+ 2665  cd A00328044
+ 2666  ls
+ 2667  cd sd2019a-exam1
+ 2668  git pull
+ 2669  ls
+ 2670  vagran up --provisions
+ 2671  vagrant up --provisions
+ 2672  vagrant up --provision
+ 2673  git checkout IntegrationBranch
+ 2674  ls
+ 2675  git pull
+ 2676  vagrant up --provision
+ 2677  git checkout master
+ 2678  git pull
+ 2679  vagrant up --provision
+ 2680  ls
+ 2681  cd playbooks
+ 2682  ls
+ 2683  cd files
+ 2684  ls
+ 2685  cd ..
+ 2686  ls
+ 2687  cat Vagrantfile
+ 2688  ls
+ 2689  cd playbooks
+ 2690  ls
+ 2691  cat playbook_
+ 2692  cat playbook_lb.yml
+ 2693  vi playbook_lb.yml
+ 2694  cd ..
+ 2695  vagrant up --provision
+ 2696  ls
+ 2697  cd playbooks
+ 2698  ls
+ 2699  vi playbook_lb.yml
+ 2700  cd ..
+ 2701  vagrant up --provision
+ 2702  ls
+ 2703  cd playbooks
+ 2704  ls
+ 2705  cat playbook_lb.yml
+ 2706  cd files
+ 2707  ls
+ 2708  cd ..
+ 2709  cat playbook_wb.yml
+ 2710  vi playbook_wb.yml
+ 2711  cd ..
+ 2712  vagrant up --provision
+ 2713  ls
+ 2714  cd playbooks
+ 2715  ls
+ 2716  vi playbook_lb.yml
+ 2717  cd ..
+ 2718  cd playbooks
+ 2719  ls
+ 2720  vi playbook_wb.yml
+ 2721  cd ..
+ 2722  vagrant up --provision
+ 2723  cd ..
+ 2724  cd sd2019a-workshop4
+ 2725  vagrant status
+ 2726  ls
+ 2727  cat Vagrantfile
+ 2728  clear
+ 2729  vagrant resume
+ 2730  owd
+ 2731  pwd
+ 2732  vagrant up
+ 2733  vagrant resume
+ 2734  vagrant destroy
+ 2735  vagrant resume
+ 2736  vagrant up --provision
+ 2737  vagrant up
+ 2738  vagrant resume
+ 2739  history
+ 2740  vagrant status
+ 2741  pwd
+ 2742  ls
+ 2743  vagrant init
+ 2744  vagrant up
+ 2745  vagrant destroy
+ 2746  vagrant up
+ 2747  vi Vagrantfile
+ 2748  vi borr.txt
+ 2749  ls
+ 2750  git pull
+ 2751  git pull remote santyfajardo/InitialWork
+ 2752  vagrant status
+ 2753  vagran up
+ 2754  vagrant up
+ 2755  sudo destroy
+ 2756  sudo vagrant destroy
+ 2757  vagrant destroy
+ 2758  clear
+ 2759  vagrant up
+ 2760  vagrant status
+ 2761  sudo vagrant destroy
+ 2762  vagrant destroy
+ 2763  vagrant status
+ 2764  vagrant up
+ 2765  nano Vagrantfile
+ 2766  vagrant up
+ 2767  nano Vagrantfile
+ 2768  vagrant up
+ 2769  vagrant status
+ 2770  vagrant ssh lbload_balancer
+ 2771  tmux new-session -s Distri
+ 2772  vagrant ssh lbload_balancer
+ 2773  vagrant ssh amicroservice-a
+ 2774  vagrant status
+ 2775  vagrant ssh amicroservice_a
+ 2776  vagrant ssh lbloadbalancer
+ 2777  vagrant ssh lbload_balancer
+ 2778  apt-get install -y wget unzip
+ 2779  sudo apt-get install -y wget unzip
+ 2780  wget https://releases.hashicorp.com/consul/1.0.0/consul_1.0.0_linux_amd64.zip -P /tmp
+ 2781  vagrant ssh lbloadbalancer
+ 2782  vagrant ssh lbload_balancer
+ 2783  vagrant status
+ 2784  vagrant ssh discovery_service
+ 2785  consul menbers
+ 2786  vagrant ssh discovery_service
+ 2787  vagrant ssh amicroservice_a
+ 2788  vagrant ssh discovery_service
+ 2789  vagrant ssh amicroservice_a
+ 2790  vagrant ssh lbload_balancer
+ 2791  exit
+ 2792  vagrant ssh discovery_service
+ 2793  vagrant ssh lbload_balancer
+ 2794  vagrant ssh amicroservice_a
+ 2795  vagrant ssh lbload_balancer
+ 2796  vagrant destroy
+ 2797  sudo shutdown -h now
+ 2798  ls
+ 2799  cd Documents
+ 2800  ls
+ 2801  cd A00328044
+ 2802  ls
+ 2803  cd ..
+ 2804  ls
+ 2805  cd VirtualBox\ VMs
+ 2806  ls
+ 2807  cd Documents
+ 2808  ls
+ 2809  cd A00328044
+ 2810  ls
+ 2811  cd sd2019a-workshop4
+ 2812  ls+
+ 2813  ls
+ 2814  vi Vagrantfile
+ 2815  Vagrant up
+ 2816  vagrant up
+ 2817  vagrant status
+ 2818  vagrant ssh discovery_service
+ 2819  cd Documents
+ 2820  cd A00328044
+ 2821  cd sd2019a-workshop4
+ 2822  ls
+ 2823  vagrant ssh discovery_service
+ 2824  vagrant ssh microservice_a
+ 2825  ls
+ 2826  cd Documents
+ 2827  cd A00328044
+ 2828  cd sd2019a-workshop4
+ 2829  vagrant ssh microservice_a
+ 2830  ls
+ 2831  cd Documents
+ 2832  cd A00328044
+ 2833  cd sd2019a-workshop4
+ 2834  vagrant status
+ 2835  vagrant ssh load_balancer
+ 2836  cd Documents
+ 2837  cd A00328044
+ 2838  cd sd2019a-workshop4
+ 2839  vagrant ssh load_balancer
+ 2840  cd Documents
+ 2841  cd A00328044
+ 2842  cd sd2019a-workshop4
+ 2843  vagrant ssh load_balancer
+ 2844  vagrant ssh microservice_b
+ 2845  cd Documents
+ 2846  cd A00328044/sd2019a-workshop4
+ 2847  vagrant ssh microservice_b
+ 2848  cd Documents/A00328044/sd2019a-workshop4
+ 2849  vagrant ssh microservice_b
+ 2850  cd Documents/A00328044/sd2019a-workshop4
+ 2851  vagrant ssh load_balancer
+ 2852  curl http://192.168.56.102:8500/v1/catalog/services
+ 2853  cat Vagrantfile
+ 2854  vagrant ssh load_balancer
+ 2855  vagrant --help
+ 2856  vagrant suspend
+ 2857  ls
+ 2858  cd A00315328
+ 2859  ls
+ 2860  cd ..
+ 2861  history
+ 2862  ls
+ 2863  cd A00315328
+ 2864  ls
+ 2865  cd ..
+ 2866  ls
+ 2867  cd Templates
+ 2868  ls
+ 2869  cd ..
+ 2870  ls
+ 2871  cd Documents
+ 2872  ls
+ 2873  cd A00328044
+ 2874  ls
+ 2875  cd sd2019a-workshop4/ls
+ 2876  cd sd2019a-workshop4/
+ 2877  ls
+ 2878  vi Vagrantfile
+ 2879  cd ..
+ 2880  ls
+ 2881  cd ds-discovery-service
+ 2882  ls
+ 2883  cd hashicorp
+ 2884  ls
+ 2885  vi Vagrantfile
+ 2886  history
+ 2887  cd ..
+ 2888  ls
+ 2889  cd Documents/A00328044/sd2019a-workshop4
+ 2890  vagrant resume
+ 2891  vagrant status
+ 2892  vagrant ssh load_balancer
+ 2893  vagrant ssh microservice_a
+ 2894  ssh ls
+ 2895  vagran ssh load_balancer
+ 2896  vagrant ssh load_balancer
+ 2897  vagrant ssh microservice_b
+ 2898  vagrant ssh microservice_a
+ 2899  vagrant ssh load_balancer
+ 2900  vagrant destroy
+ 2901  vagrant status
+ 2902  vi Vagrantfile
+ 2903  mkdir playbooks
+ 2904  cd playbooks
+ 2905  vi playbook_lb.yml
+ 2906  vi Vagrantfile
+ 2907  ls
+ 2908  cd ..
+ 2909  vi Vagrantfile
+ 2910  git add
+ 2911  git add .
+ 2912  hit add --help
+ 2913  git add --help
+ 2914  gaa
+ 2915  gcmsg "Update vagrantfile and add load_balancer playbook"
+ 2916  gp
+ 2917  gp origin santyfajardo/InitialWork
+ 2918  ls -a
+ 2919  nano .gitignore
+ 2920  gaa
+ 2921  gcmsg "Add gitignore"
+ 2922  git push origin santyfajardo/InitialWork
+ 2923  ls
+ 2924  cd Documents
+ 2925  ls
+ 2926  cd A00328044
+ 2927  ls
+ 2928  cd sd2019a-workshop4
+ 2929  ls
+ 2930  cd playbooks
+ 2931  ls
+ 2932  cat playbook_lb.yml
+ 2933  nano playbook_lb.yml
+ 2934  nano playbook_ds.yml
+ 2935  gaa
+ 2936  gcmsg "Add discovery service playbook"
+ 2937  nano playbook_ms.yml
+ 2938  gaa
+ 2939  gcmsg "Add microservice playbook"
+ 2940  nano playbook_lb.yml
+ 2941  nano playbook_ds.yml
+ 2942  gaa
+ 2943  gcmsg "Updates playbooks"
+ 2944  gp origin santyfajardo/InitialWork
+ 2945  cd ..
+ 2946  ls
+ 2947  cat Vagrantfile
+ 2948  nano Vagrantfile
+ 2949  vagrant up
+ 2950  cat playbooks
+ 2951  cat playbooks/playbook_lb.yml
+ 2952  nano playbooks/playbook_lb.yml
+ 2953  vagrant up
+ 2954  cd playbooks
+ 2955  ls
+ 2956  nano playbook_ds.yml
+ 2957  nano playbook_ms.yml
+ 2958  cd ..
+ 2959  vagrant up
+ 2960  cd playbooks
+ 2961  ls
+ 2962  nano playbook_ms.yml
+ 2963  vagrant provision
+ 2964  cd ..
+ 2965  vagrant provision
+ 2966  nano playbooks/playbook_lb.yml
+ 2967  vagrant provision
+ 2968  nano playbooks/playbook_lb.yml
+ 2969  vagrant provision
+ 2970  nano playbooks/playbook_lb.yml
+ 2971  vagrant provision
+ 2972  nano playbooks/playbook_lb.yml
+ 2973  vagrant provision
+ 2974  nano playbooks/playbook_lb.yml
+ 2975  vagrant provision
+ 2976  nano playbooks/playbook_lb.yml
+ 2977  vagrant provision
+ 2978  nano playbooks/playbook_lb.yml
+ 2979  vagrant provision
+ 2980  nano playbooks/playbook_lb.yml
+ 2981  vagrant provision
+ 2982  nano playbooks/playbook_lb.yml
+ 2983  vagrant provision
+ 2984  nano playbooks/playbook_lb.yml
+ 2985  vagrant provision
+ 2986  nano playbooks/playbook_lb.yml
+ 2987  vagrant provision
+ 2988  nano playbooks/playbook_lb.yml
+ 2989  vagrant provision
+ 2990  nano playbooks/playbook_lb.yml
+ 2991  vagrant provision
+ 2992  nano playbooks/playbook_lb.yml
+ 2993  vagrant provision
+ 2994  nano playbooks/playbook_lb.yml
+ 2995  vagrant provision
+ 2996  nano playbooks/playbook_lb.yml
+ 2997  vagrant provision
+ 2998  vi playbooks/playbook_lb.yml
+ 2999  vagrant provision
+ 3000  vi playbooks/playbook_lb.yml
+ 3001  vagrant provision
+ 3002  vi playbooks/playbook_lb.yml
+ 3003  vagrant provision
+ 3004  vi playbooks/playbook_lb.yml
+ 3005  vagrant provision
+ 3006  vi playbooks/playbook_ds.yml
+ 3007  vagrant provision
+ 3008  vi playbooks/playbook_ds.yml
+ 3009  vagrant provision
+ 3010  vi playbooks/playbook_ds.yml
+ 3011  vagrant provision
+ 3012  vi playbooks/playbook_ms.yml
+ 3013  vagrant provision
+ 3014  vi playbooks/playbook_ms.yml
+ 3015  ansible-playbook playbooks/playbook_ms.yml
+ 3016  vagrant provision
+ 3017  vi playbooks/playbook_ms.yml
+ 3018  vagrant provision
+ 3019  vi playbooks/playbook_ms.yml
+ 3020  vagrant provision
+ 3021  vi playbooks/playbook_ms.yml
+ 3022  vagrant provision
+ 3023  vagrant up
+ 3024  gaa
+ 3025  gcmsg "All playbooks OK Download dependencies"
+ 3026  ls
+ 3027  vi .gitignore
+ 3028  gaa
+ 3029  gcmsg "Update gitignore"
+ 3030  git push origin santyfajardo/InitialWork
+ 3031  ls
+ 3032  vi playbooks
+ 3033  cd playbooks
+ 3034  ls
+ 3035  cd Documents
+ 3036  ls
+ 3037  cd A00328044
+ 3038  ls
+ 3039  cd
+ 3040  cd Documents/A00328044
+ 3041  ls -a
+ 3042  ls -l
+ 3043  cd 
+ 3044  cd Documents/A00328044
+ 3045  ls
+ 3046  git clone https://github.com/santyfajardo/sd2019a-workshop5.git
+ 3047  ls
+ 3048  cd sd2019a-workshop5
+ 3049  git checkout -b santyfajardo/Initial-Work
+ 3050  ls
+ 3051  cd ..
+ 3052  git clone https://github.com/ICESI/so-containers.git
+ 3053  cd so-containers
+ 3054  ls
+ 3055  ls -a
+ 3056  ls
+ 3057  cat README.md
+ 3058  cd ..
+ 3059  tmux 
+ 3060  exit
+ 3061  tmux new-session -s distribuidos
+ 3062  ls
+ 3063  docker --version
+ 3064  sudo apt-get update docker
+ 3065  sudo update docker
+ 3066  sudo usermod -aG docker distribuidos
+ 3067  newgrp docker
+ 3068  docker pull alpine
+ 3069  docker images | grep alpine
+ 3070  docker run -it --rm alpine /bin/sh
+ 3071  docker run -p 8088:80 -it --rm alpine /bin/sh
+ 3072  curl 127.0.0.1:8088
+ 3073  curl 192.168.130.9:8088
+ 3074  sudo systemctl suspend
+ 3075  eixitjbweksbdbds¿
+ 3076  exit
+ 3077  ls
+ 3078  cd Documents/A00328044
+ 3079  ls
+ 3080  cd so-containers
+ 3081  ls
+ 3082  cd 02_namespaces
+ 3083  ls
+ 3084  tmux new-session -s Distribuidos
+ 3085  ip a | grep docker0
+ 3086  docker run -it --rm alpine /bin/sh
+ 3087  ps -e
+ 3088  ls
+ 3089  clear
+ 3090  cd ..
+ 3091  cd 03_cgroups
+ 3092  ls
+ 3093  docker pull elastic/elasticsearch:6.4.3
+ 3094  cd ..
+ 3095  ls
+ 3096  cd sd2019a-workshop5
+ 3097  mkdir 00_intro
+ 3098  cd 00_intro
+ 3099  vi Dockerfile
+ 3100  docker build -t icesi_web:0.1.0 .
+ 3101  docker images | grep icesi_web
+ 3102  docker run --rm -p 8088:80 icesi_web:0.1.0 
+ 3103  docker run -d -p 8088:80 --name icesi_web icesi_web:0.1.0 
+ 3104  docker ps
+ 3105  cd
+ 3106  sudo su
+ 3107  exit
+ 3108  curl 127.0.0.1:8088
+ 3109  docker logs
+ 3110  docker logs 039
+ 3111  docker stop 039
+ 3112  docker ps
+ 3113  docker start 039
+ 3114  docker ps
+ 3115  docker exec -it 039 /bin/sh
+ 3116  tmux attach -t distribuidos
+ 3117  tmux list-session
+ 3118  tmux attach -t Distribuidos
+ 3119  tmux detach
+ 3120  tmux list-session
+ 3121  tmux attach Distribuidos
+ 3122  tmux attach -t Distribuidos
+ 3123  clear
+ 3124  tmux attach-session Distribuidos
+ 3125  tmux attach-session -t  Distribuidos
+ 3126  clear
+ 3127  kill -9 1
+ 3128  sudo jkill -9 1
+ 3129  ls
+ 3130  cd 
+ 3131  exit
+ 3132  tmux attach-session -t  Distribuidos
+ 3133  tmux new-seesion -s Distri
+ 3134  tmux new-session -s Distri
+ 3135  ls
+ 3136  cd ..
+ 3137  ls
+ 3138  cd sd2019a-workshop5
+ 3139  ls
+ 3140  cd 00_intro
+ 3141  ls
+ 3142  vi Dockerfile
+ 3143  docker build -t icesi_web:0.2.0 .
+ 3144  docker ps
+ 3145  docker images | grep icesi_web
+ 3146  cd
+ 3147  docker pull elastic/kibana:6.4.3
+ 3148  ls
+ 3149  vi Dockerfile
+ 3150  cd ..
+ 3151  ls
+ 3152  cd sd2019a-workshop5
+ 3153  docker build -t icesi_web:0.3.0 .
+ 3154  vi Dockerfile
+ 3155  cat Dockerfile
+ 3156  ls
+ 3157  vi Dockerfile
+ 3158  docker build -t icesi_web:0.3.0 .
+ 3159  vi Dockerfile
+ 3160  docker build -t icesi_web:0.3.0 .
+ 3161  vi Dockerfile
+ 3162  cd /etc/apache2/conf.d/custom.conf
+ 3163  cd /etc/apache2
+ 3164  ls
+ 3165  cat apache2.conf
+ 3166  ls
+ 3167  cd sites-available
+ 3168  ls
+ 3169  cat 000-default.conf
+ 3170  ls
+ 3171  cd ..
+ 3172  ls
+ 3173  cd sites-enabled
+ 3174  ls
+ 3175  cat 000-default.conf
+ 3176  cd ..
+ 3177  cd
+ 3178  gaa
+ 3179  gcmsg "Update files"
+ 3180  git push origin santyfajardo/Initial-Work
+ 3181  exit
+ 3182  gaa
+ 3183  gcmsg "Update"
+ 3184  git push origin santyfajardo/Initial-Work
+ 3185  exit
+ 3186  sudo shutdown -h now
+ 3187  ls
+ 3188  cd Documents
+ 3189  ls
+ 3190  cd A00328044
+ 3191  ls
+ 3192  cd sd2019a-workshop5
+ 3193  ls
+ 3194  cd 00_intro
+ 3195  ls
+ 3196  vi Dockerfile
+ 3197  docker ps
+ 3198  vi index.html
+ 3199  ls
+ 3200  rm -rf index.html
+ 3201  ls
+ 3202  Vi Dockerfile
+ 3203  vi Dockerfile
+ 3204  docker build -t santiago/apache .
+ 3205  vi Dockerfile
+ 3206  docker build -t santiago/apache .
+ 3207  vi Dockerfile
+ 3208  vi index.html
+ 3209  vi Dockerfile
+ 3210  cat Dockerfile
+ 3211  docker build -t webserver-image:v1 .
+ 3212  vi Dockerfile
+ 3213  ls
+ 3214  docker build -t webserver-image:v1 .
+ 3215  docker images
+ 3216  docker run -d -p 80:80 webserver-image:v1
+ 3217  curl docker
+ 3218  curl 192.168.130.9
+ 3219  curl 192.168.130.9:80
+ 3220  docker stop 6a656233
+ 3221  docker images
+ 3222  docker rmi af0feb6db8ca
+ 3223  docker rmi -f af0feb6db8ca
+ 3224  docker images
+ 3225  vi Dockerfile
+ 3226  ls
+ 3227  cd Documents/A00328044/sd2019a-workshop5
+ 3228  cd 00_intro
+ 3229  ls
+ 3230  vi Dockerfile
+ 3231  docker build -t webserver-image:v1 .
+ 3232  docker run -d -p 80:80 webserver-image:v1
+ 3233  curl 192.168.130.9:80
+ 3234  vi Dockerfile
+ 3235  cd /var/www/localhost/htdocs/
+ 3236  cd
+ 3237  cd /var/www/localhost/htdocs/
+ 3238  sudo su
+ 3239  docker build -t webserver-image:v1 .
+ 3240  vi Dockerfile
+ 3241  docker build -t webserver-image:v1 .
+ 3242  curl 192.168.130.9:80
+ 3243  cat Dockerfile
+ 3244  vi Dockerfile
+ 3245  docker build -t webserver-image:v1 .
+ 3246  vi Dockerfile
+ 3247  docker build -t webserver-image:v1 .
+ 3248  docker run -d -p 80:80 webserver-image:v1
+ 3249  vi Dockerfile
+ 3250  docker build -t webserver-image:v1 .
+ 3251  docker run -d -p 8080:8080 webserver-image:v1
+ 3252  curl 192.168.130.9:8080
+ 3253  curl 192.168.130.9:80
+ 3254  vi Dockerfile
+ 3255  docker build -t webserver-image:v1 .
+ 3256  docker run -d -p 80:8080 webserver-image:v1
+ 3257  vi Dockerfile
+ 3258  docker build -t webserver-image:v1 .
+ 3259  docker run -d -p 8080:80 webserver-image:v1
+ 3260  docker run -d -p 8080:45000 webserver-image:v1
+ 3261  vi Dockerfile
+ 3262  docker build -t webserver-image:v1 .
+ 3263  docker run -d -p 45000:80 webserver-image:v1
+ 3264  curl 192.168.130.9:80
+ 3265  cd /var/www
+ 3266  ls
+ 3267  cd html
+ 3268  ls
+ 3269  cat index.html
+ 3270  vi index.html
+ 3271  cd
+ 3272  sudo su
+ 3273  curl 192.168.130.9:80
+ 3274  ls
+ 3275  curl 192.168.130.9:8080
+ 3276  vi Dockerfile
+ 3277  docker build -t webserver-image:v1 .
+ 3278  docker run -d -p 80:80 webserver-image:v1
+ 3279  docker run -d -p 80:8080 webserver-image:v1
+ 3280  docker run -d -p 80:8282 webserver-image:v1
+ 3281  docker run -d -p 8181:8181 webserver-image:v1
+ 3282  vi Dockerfile
+ 3283  docker run -d -p 45000:8181 webserver-image:v1
+ 3284  docker run -d -p 8181:8181 webserver-image:v1
+ 3285  docker ps
+ 3286  docker rmi -f 54d48765eda0
+ 3287  docker rmi -f 54d4876
+ 3288  docker rmi -f 54d48765eda0
+ 3289  docker images
+ 3290  docker rmi -f 121b5fdbb709
+ 3291  docker ps
+ 3292  docker stop 54d4
+ 3293  docker stop 24fc
+ 3294  docker ps
+ 3295  docker images
+ 3296  docker rmi -f 121b5
+ 3297  docker images
+ 3298  docker rmi -f 0feb427b17d5
+ 3299  docker rmi -f 4de20b3cb524
+ 3300  docker rmi -f 32434fb1bafb
+ 3301  docker images
+ 3302  ls
+ 3303  vi Dockerfile
+ 3304  docker build -t webserver-image:v1 .
+ 3305  docker run -d -p 9000:80 webserver-image:v1 --name santiago
+ 3306  curl 192.168.130.9:9000
+ 3307  ss -nat | grep 9000 | grep LISTEN
+ 3308  nmap localhost
+ 3309  nc -k -l 9000
+ 3310  nmap localhost
+ 3311  curl 192.168.130.9:80
+ 3312  docker ps
+ 3313  docker pause bf6c92475626
+ 3314  docker pause 7320023a46f0
+ 3315  docker ps
+ 3316  vi Dockerfile
+ 3317  docker build -t Icesi/Santiago:V1 . 
+ 3318  docker build -t icesi/Santiago:V1 . 
+ 3319  docker build -t icesi/Santiago . 
+ 3320  docker build -t icesiSantiago . 
+ 3321  docker build -t icesiSantiago/apache . 
+ 3322  ls
+ 3323  rm -rf index.html
+ 3324  docker build -t santiago/apache . 
+ 3325  docker run -d -p 80:80 santiago:v1 --name icesi_web
+ 3326  docker run -d -p 80:80 santiago --name icesi_web
+ 3327  docker run -d -p 80:80 santiago/apache --name icesi_web
+ 3328  sudo /etc/init.d/apache2 stop
+ 3329  docker run -d -p 9000:80 santiago/apache --name icesi_web
+ 3330  curl 192.168.130.9:9000
+ 3331  curl 192.168.130.9:80
+ 3332  curl 127.0.0.1:9000
+ 3333  docker images
+ 3334  docker run -d -p 9000:80 --name santiago/apache icesi_web
+ 3335  docker run -d -p 9000:80 --name santiago/apache santiago/apache
+ 3336  docker run -d -p 9000:80 santiago/apache:latest 
+ 3337  curl 127.0.0.1:9000
+ 3338  curl 127.0.0.1:9000/Student.html
+ 3339  curl 127.0.0.1:9000/student.html
+ 3340  vi Dockerfile
+ 3341  curl 127.0.0.1:9000/icesi.html
+ 3342  curl 127.0.0.1:9000/Student.html
+ 3343  curl 127.0.0.1:9000/student.html
+ 3344  ls
+ 3345  cat Dockerfile
+ 3346  gaa
+ 3347  gcmsg "Update Dockerfile"
+ 3348  gp origin santyfajardo/Initial-Work
+ 3349  history
+ 3350  echo history > comandos.txt
+ 3351  ls
+ 3352  gaa
+ 3353  gcmsg "Add comandos used"
+ 3354  gp origin santyfajardo/Initial-Work
+ 3355  ls
+ 3356  curl 192.168.130.9:9000
+ 3357  curl 192.168.130.9:9000/student.html
+ 3358  curl 192.168.130.9:9000/icesi.html
+ 3359  history
+ 3360  ls
+ 3361  cd Documents/A00328044/sd2019a-workshop5
+ 3362  ls
+ 3363  cd 00_intro
+ 3364  ls
+ 3365  rm -rf comandos.txt
+ 3366  ls
+ 3367  git pull
+ 3368  gaa
+ 3369  gcmsg "Update"
+ 3370  git push origin santyfajardo/Initial-Work
+ 3371  ls
