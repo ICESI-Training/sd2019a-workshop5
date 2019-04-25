@@ -1,0 +1,9 @@
+FROM ubuntu:latest
+LABEL autor: Edisson guerrero
+LABEL email: edixon_guerrero96@hotmail.com
+RUN apt-get install -y python3.4 && \
+    apt install python-pip && \
+    pip install flask && \
+    wget https://raw.githubusercontent.com/ICESI/ds-discovery-service/master/sources/microservice_a.py /tmp
+
+ENTRYPOINT ["/usr/bin/python","/tmp/microservice_a.py"]
