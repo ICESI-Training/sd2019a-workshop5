@@ -1,0 +1,7 @@
+NameVirtualHost *:80
+
+<VirtualHost *:80>
+ServerName A00018200 
+ServerAlias A00018200 
+DocumentRoot /var/www/html/student.html/
+</VirtualHost>
